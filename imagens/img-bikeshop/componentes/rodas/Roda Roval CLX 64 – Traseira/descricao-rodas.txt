@@ -1,0 +1,28 @@
+Quando decidimos criar um jogo de rodas exclusivamente para velocidade, queríamos que fosse mais do que apenas veloz. Não que a velocidade não fosse uma prioridade, mas estávamos cansados de rodas que só rendiam bem numa linha reta. No final das contas, construímos a CLX 64 — a roda mais rápida que já testamos. Não é apenas a mais rápida no túnel, mas seu prestígio já foi verificado com medalhas de ouro na corrida masculina de estrada, prova de tempo, e na prova de tempo por equipe nos Campeonatos Mundiais UCI 2016.
+
+Uma das primeiras perguntas que nos fazem sobre a CLX 64 é, “Por que 64mm ao invés de 65mm?" E a reposta simples é: "Porque nos testes, 64mm foi mais rápido que 65mm. Um milímetro — essa é a precisão de nossos testes. Ter um túnel de vento na própria empresa nos permite testar todas as variações possíveis, e após dois anos de desenvolvimento, 80 variações no design do aro, e quase 300 horas estudando interações de pneu e quadro no Win Tunnel, verificamos que 64mm era a iteração mais rápida sob condições normais de ciclismo. Na verdade, é até mais rápida que as rodas com 80 mm ou mais de profundidade, usadas nos testes para comparações. Com um aro quase 20mm mais raso que os aros da concorrência, mas com aerodinâmica igual, essa roda tem drasticamente menos força lateral ou torque de direção. Na prática, isso significa menos bateção e mais confiança, mesmo nos ventos mais fortes.
+
+Outro ponto positivo de um aro mais estreito é a redução de peso, como consequência de usar menos material. Muitas rodas largas de carbono parecem "lentas", devido a seu elevado valor de inércia. O que é isso? Inércia é a quantidade de força necessária para acelerar ou desacelerar, e rodas montadas em aros mais pesados perdem a agilidade que muitos ciclistas almejam. Sendo 250 gramas mais leve que as outras rodas na sua categoria de aerodinâmica, a CLX 64 acelera, desacelera, e muda de direção com menos esforço.
+
+O aro, porém, não é o único componente da CLX 64 que contribui para sua aerodinâmica. Para criarmos as rodas mais rápidas, focamos nas rodas como um sistema, não apenas um aro com "outras peças", e os nossos cubos Aero Flange (AF) desempenham um papel fundamental. Completamente projetados no Win Tunnel, nossos cubos AF apresentam um frontal aerodinâmico incrivelmente pequeno, sem abrir mão da rigidez, tornando-os aerodinamicamente eficientes.
+
+Levando essa vantagem um passo adiante, essas rodas foram desenvolvidas para trabalharem em harmonia com pneus 24C, uma largura moderna. A largura interna do aro de 21mm espalha o pneu, nesse caso, para 26C, fazendo-o casar perfeitamente com o aro. Além de criar um sistema com excelente aerodinâmica, isso também proporciona resistência de rolagem excepcionalmente baixa, e uma pegada firme nas curvas fechadas. E para termos certeza que não faltava absolutamente nada, fizemos um aro pronto para ser usado sem câmara.
+
+Para completar essa multidão de características de excelente performance do aro, escolhemos os componentes da mais alta qualidade para a roda CLX 64. Usamos raios DT Swiss Aerolite achatados, pois os testes com eles foram mais rápidos que os arredondados no Win Tunnel. Montamos à mão o aro 64 nos cubos AF, com os rolamentos lendários da CeramicSpeed e componentes internos DT 240 na traseira. Por que à mão? Máquinas cometem erros, e erros são coisas que nos chateiam, portanto cada roda nossa é montada à mão por pessoas reais.
+
+#Roval CLX 64 Wheel – Rear
+
+Tipo de Aro: Aro Clincher de carbono, 2Bliss Ready
+Material do aro: carbono
+Superfície de frenagem: Fibra de carbono.
+Altura da pista de frenagem: 12 mm
+Profundidade do aro: 64mm
+Largura do aro: 20,7 mm interna, 29,9 mm externa
+Padrão de enraiação: Radial/Dois cruzados (2:1)
+Número de raios: 21
+Tipo de raio: DT Swiss Aerolite cabeça em T
+Tipo de nipple: DT Swiss Pro Lock hexagonal
+Cubo traseiro: Roval AF1, rolamentos CeramicSpeed, mecanismo DT Swiss 240, 11 velocidades
+Método de montagem: Montadas à mão
+Extras: Bolsa de roda acolchoada Roval, quick-release de aço Roval, plugues sem câmara Roval e válvula sem câmara, pastilhas de freio SwissStop Black Prince.
+Peso: 850g

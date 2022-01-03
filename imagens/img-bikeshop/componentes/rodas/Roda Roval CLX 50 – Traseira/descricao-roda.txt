@@ -1,0 +1,26 @@
+Primeiro veio a nossa CLX 64. Depois as 32s. Após acumular vitórias múltiplas em Grand Tours, Worlds, e todas as outras competições, sabíamos que a nossa melhor aposta seria levar essa linha a novas alturas, ou, por assim dizer, a novas profundidades. Precisávamos projetar uma roda que acabasse de vez com os sacolejos, uma roda que tivesse todas as vantagens aerodinâmicas da 64 em um pacote que subiria como a 32, e é aí que entra a novíssima CLX 50.
+
+Quando decidimos criar a CLX 50, tínhamos objetivos claros em mente - criar rodas com 48 a 54mm de profundidade, aerodinamicamente otimizadas, ultra-largas e com cerca de 1400 gramas. Isso significa que elas teriam que pegar emprestadas algumas técnicas de economia de peso que desenvolvemos para as CLX 32, enquanto pegava alguns conselhos aerodinâmicos com as CLX 64 para conseguirmos criar o que gostamos de chamar de “rodas unicórnio”.
+
+Embora a CLX 50 pese praticamente a mesma coisa que muitas rodas na categoria "peso-leve", a aerodinâmica foi a preocupação principal no seu desenvolvimento. Nós nos mergulhamos em modelagem Dinâmica de Fluído Computacional para produzir várias formas de aro que poderiam tornar a CLX 50 a mais rápida e leve possível. Levou algum tempo, mas conseguimos chegar em três designs de rodas que foram fabricadas, montadas e colocadas em nosso Win Tunnel.
+
+No túnel, testamos cada roda, nossa e da concorrência, com um pneu 24C (com 26mm de largura), já que os pneus podem afetar os testes drasticamente. Projetamos nosso aro baseado em um pneu com dimensões mais modernas, já que pneus mais largos podem rodar com menos pressão, mas ao mesmo tempo são eficientes aerodinamicamente quando combinados com aros com a largura correta.
+
+Após encontrar o formato de aro que daria melhor suporte às nossa exigências severas de peso, decidimos equipar nosso cubo Aero Flange (AF) com 21 raios DT Swiss Aerolite, com nossos rolamentos CeramicSpeed lendários e componentes de cubo internos DT 240. E quando chegou a hora dos testes de homologação finais, estávamos com um jogo de rodas clincher com 50 mm de profundidade, pesando 770 gramas, que não é apenas mais ou menos 200 gramas mais leve que a roda da concorrência com a mesma profundidade, mas é também mensuravelmente mais rápida em qualquer prova do que qualquer roda em sua categoria.
+
+#Roval CLX 50 Wheel – Rear
+
+Tipo de Aro: Aro Clincher de carbono, 2Bliss Ready
+Material do aro: carbono
+Superfície de frenagem: Fibra de carbono.
+Altura da pista de frenagem: 12 mm
+Profundidade do Aro: 50mm
+Largura do Aro: 20,7mm interno, 29,4mm externo
+Padrão de enraiação: Radial/Dois cruzamentos (2:1)
+Número de raios: 21
+Tipo de raio: DT Swiss Aerolite cabeça em T
+Tipo de nipple: DT Swiss Pro Lock hexagonal
+Cubo traseiro: Roval AF1, rolamentos cerâmicos CeramicSpeed, mecanismos internos DT Swiss 240, 11 velocidades
+Método de montagem: Montadas à mão
+Extras: Bolsa de roda acolchoada Roval, quick-release de aço Roval, plugues sem câmara Roval e válvula sem câmara, pastilhas de freio SwissStop Black Prince.
+Peso: 770g
