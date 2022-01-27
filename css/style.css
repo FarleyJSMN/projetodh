@@ -1,0 +1,40 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.menu a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 25px;
+    font-weight:800;
+    padding: 25px;
+    text-align: center;
+
+
+}
+
+.vetor img{
+   display: inline-block;
+   padding: 9px;
+}
+
+.vetor img{
+    display: inline-block;
+    padding: 10px;
+}
+
+.status a img {
+    display: inline-block;
+    padding: 10px;
+}
