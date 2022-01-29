@@ -4,6 +4,13 @@
     list-style: none;
 }
 
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Header */
 .container{
     width: 100%;
     display: flex;
@@ -12,29 +19,110 @@
     background-color: black;
     flex-wrap: wrap;
 }
+.menu{
+    display: flex;
+   
+}
 
-.menu a{
+.menu a{   
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    font-size: 25px;
-    font-weight:800;
-    padding: 25px;
-    text-align: center;
-
-
-}
-
-.vetor img{
-   display: inline-block;
-   padding: 9px;
-}
-
-.vetor img{
-    display: inline-block;
+    /* font-size: 25px; */
+    font-weight: 800;
     padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    /* background: tomato; */
+}
+
+.logo p{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 20px;
+    /* background: tomato; */    
+}
+
+.logo{
+    display: flex;
+    color: white;        
+    justify-content: space-between;    
+    margin-left: 10px;       
+    align-items: center;
 }
 
 .status a img {
     display: inline-block;
     padding: 10px;
+}
+
+/* Footer */
+.footer1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.menufooter{
+    display: flex;
+   
+}
+
+.menufooter a{   
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    /* font-size: 25px; */
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    /* background: tomato; */
+}
+
+/* Section 2 */
+
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    background: rgb(100, 101, 101);    
+}
+
+.item2 img{
+    width: 40%;
+    margin: 5px;
+}
+
+.texto2 p{
+    text-align: end;
+    margin: 10px;
+}
+
+/* section 3 */
+
+
+.container3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    background: rgb(100, 101, 101);
+       
+}
+
+.item3 img{
+    width: 40%;
+    margin: 5px;
+    
+}
+
+.texto3 p{
+    display: block;
+    text-align: start;
+    margin: 10px;
 }
