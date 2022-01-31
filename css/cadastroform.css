@@ -109,35 +109,48 @@ img{
 }
 
 .button2 {
+    width: 15%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 5px;
     padding: 10px;
+    
 }
 
 .createbtn {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    background-color: #bd4714;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 20px;        
+}
+
+.createbtn:hover {
+    background-color: #bd4714;
+    cursor: pointer;
 }
 
 .enterbtn {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    background-color: #fff;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 20px;    
+}
+
+.enterbtn:hover {
+    background-color: #bd4714;
+    cursor: pointer;
 }
 
 
 input {
-    display: inline-flex;
+    width: 25%;
+    padding: 5px;
+    height: 30px;
     border-radius: 5px;
+    background-color: azure;
 }
 
 
