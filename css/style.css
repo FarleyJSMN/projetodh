@@ -19,7 +19,7 @@ img{
     background-color: black;
     flex-wrap: wrap;
 }
-.menu{
+.menu ul{
     display: flex;
    
 }
@@ -31,6 +31,9 @@ img{
     padding: 10px;
     text-align: center;
     margin-left: 10px;
+}
+.menu a:hover{
+    color: #BD4714;
 }
 
 .logo p{    
