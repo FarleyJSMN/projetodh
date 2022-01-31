@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIKE SHOP</title>
+    <link href="./css/loginform.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <section class="container">
+            <div class="logo">
+                <img src="./imagens/header/Outline/Logo/Vector.png">
+                <p>BIKE SHOP</p>
+            </div>            
+            <nav class="menu">
+                <a href="">BIKES</a>
+                <a href="">PEÇAS</a>
+                <a href="">ACESSÓRIOS</a>
+                <a href="">OFICINA</a>
+            </nav>            
+            <nav class="status">
+                <a href=""><img src="./imagens/header/Outline/Shapes/heart.png"></a>
+                <a href=""><img src="./imagens/header/Outline/Shopping/cart.png"></a>
+                <a href=""><img src="./imagens/header/Outline/Users/profile.png"></a>
+            </nav>
+        </section>
+    </header>
+    <div class="container-form">
+
+        <div class="container-login">
+            <span class="login">
+                Faça o Login
+            </span>
+        </div>
+        
+        <form class="form-login" action="/register" method="post">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Senha</label>
+            <input type="password" name="senha" id="senha" required>
+            
+            <ul>
+                <li> Lembrar-me <input type="checkbox" name="check" id="check" required></li>
+                <li><a href="#"> Esqueceu sua senha? </a></li>
+            </ul>
+            
+        </form>
+            <div class="button">
+                <button class="enterbtn"> Entrar </button>
+                <button class="createbtn"> Criar conta </button>
+            </div>
+
+    </div>
+    <footer>
+        <section class="footer1">                        
+            <nav class="menufooter">
+                <a href="">PRIVACIDADE</a>
+                <a href="">TERMOS DE USO</a>
+                <a href="">CONTATO</a>
+                <a href="">SUPORTE</a>
+                <a href="">SOBRE</a>
+                <a href="">REVENDA</a>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>
