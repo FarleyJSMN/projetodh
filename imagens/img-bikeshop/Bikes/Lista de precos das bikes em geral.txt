@@ -5,3 +5,8 @@ Ella - R$ 1.791,00 - 12x sem juros
 Gavea - R$ 2.072,00 - 12x sem juros
 Style - R$ 1.590,00 - 12x sem juros
 Luna - R$ 699,00 - 12x sem juros
+
+<h2>Bike em oferta</h2>
+            <p>Comodo - R$ 1.752,00 - 12x sem juros</p>
+            <p>Mas nem tanto. Perfeitas para o seu dia a dia.</p>
+            <p>Ver mais</p>
