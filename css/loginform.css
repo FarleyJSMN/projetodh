@@ -64,6 +64,8 @@ img{
     align-items: baseline;
     background-color: black;
     flex-wrap: wrap;
+    position: absolute;
+    bottom: 0px;
 }
 .menufooter{
     display: flex;
