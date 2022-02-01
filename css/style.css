@@ -34,6 +34,7 @@ img{
 }
 .menu a:hover{
     color: #BD4714;
+    transition: 0.5s;
 }
 
 .logo p{    
