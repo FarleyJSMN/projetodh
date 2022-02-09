@@ -1,0 +1,135 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Header */
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.menu ul{
+    display: flex;
+   
+}
+
+.menu a{   
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+.menu a:hover{
+    color: #BD4714;
+    transition: 0.5s;
+}
+
+.logo p{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 20px;    
+}
+
+.logo{
+    display: flex;
+    color: white;        
+    justify-content: space-between;    
+    margin-left: 10px;       
+    align-items: center;
+}
+
+.status a img {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* Peças */
+
+.lista > div{
+    flex: 1 1 0px;
+    margin: 10px;
+}
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+ 
+.canotes{
+    display: flex;
+    justify-content: center;
+}
+
+.garfos{
+    display: flex;
+    justify-content: center;
+}
+
+.guidao{
+    display: flex;
+    justify-content: center;
+}
+
+.mesas{
+    display: flex;
+    justify-content: center;
+}
+
+.pneu{
+    display: flex;
+    justify-content: center;
+}
+
+.quadro{
+    display: flex;
+    justify-content: center;
+}
+
+.rodas{
+    display: flex;
+    justify-content: center;
+}
+
+.selins{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer */
+.footer1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.menufooter{
+    display: flex;
+   
+}
+
+.menufooter a{   
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
