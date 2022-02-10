@@ -66,7 +66,7 @@ img{
     background-color: black;
     flex-wrap: wrap;
 }
-.menufooter{
+.menufooter ul {
     display: flex;
    
 }
