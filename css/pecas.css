@@ -58,10 +58,20 @@ img{
 }
 
 /* Peças */
-
+/* 
 .lista > div{
     flex: 1 1 0px;
     margin: 10px;
+} */
+.lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: center;
+    background: rgb(196, 186, 186);
+    padding: 5px;
+    
 }
 
 p{
@@ -69,11 +79,7 @@ p{
     
 }
  
-.canotes{
-    display: flex;
-    justify-content: center;
-}
-
+/*
 .garfos{
     display: flex;
     justify-content: center;
@@ -107,7 +113,7 @@ p{
 .selins{
     display: flex;
     justify-content: center;
-}
+} */
 
 
 /* Footer */
