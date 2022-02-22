@@ -57,93 +57,43 @@ img{
     padding: 10px;
 }
 
+
 /* Body */
 
-.container2{
+.conteiner1{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap: wrap;
     justify-content:space-around;
     align-content: center;
     background: rgb(196, 186, 186);
-    padding: 5px;    
+    padding: 5px;
 }
 
-.container3{
+.conteiner2{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap: wrap;
     justify-content:space-around;
     align-content: center;
     background: rgb(196, 186, 186);
-    padding: 5px;    
+    padding: 5px;
 }
 
-.container4{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-content: center;
-    background: rgb(196, 186, 186);
-    padding: 5px;    
-}
 
-.container5{
-    display: flex;
-    flex-direction: row;
+.conteiner3{
+    display: flex; 
+    flex-direction:row;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     align-content: center;
     background: rgb(196, 186, 186);
-    padding: 5px;    
-}
-
-.container6{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-content: center;
-    background: rgb(196, 186, 186);
-    padding: 5px;    
-}
-
-.container7{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-content: center;
-    background: rgb(196, 186, 186);
-    padding: 5px;    
-}
-
-.container8{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-content: center;
-    background: rgb(196, 186, 186);
-    padding: 5px;    
-}
-
-.container9{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-content: center;
-    background: rgb(196, 186, 186);
-    padding: 5px;    
+    padding: 5px;
 }
 
 p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
- 
-
 
 /* Footer */
 .footer1{
