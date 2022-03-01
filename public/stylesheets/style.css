@@ -1,0 +1,115 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Header */
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.menu ul{
+    display: flex;
+   
+}
+
+.menu a{   
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+.menu a:hover{
+    color: #BD4714;
+    transition: 0.5s;
+}
+
+.logo p{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 20px;    
+}
+
+.logo{
+    display: flex;
+    color: white;        
+    justify-content: space-between;    
+    margin-left: 10px;       
+    align-items: center;
+}
+
+.status a img {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* Body */
+h1{
+    text-align: center;
+    margin: 1px;
+    background-color: rgb(242, 245, 239);
+}
+
+.container2{
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background: rgb(255, 255, 255);    
+}
+
+.container2 > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.container2 > div > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 80px;
+    z-index: 3;
+}
+
+/* Footer */
+.footer1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.menufooter ul {
+    display: flex;
+   
+}
+
+.menufooter a{   
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
