@@ -4,7 +4,6 @@
     list-style: none;
 }
 
-
 img{
     max-width: 100%;
     display: block;
@@ -20,8 +19,7 @@ img{
     flex-wrap: wrap;
 }
 .menu ul{
-    display: flex;
-   
+    display: flex;   
 }
 
 .menu a{   
@@ -80,7 +78,6 @@ img{
     padding: 5px;
 }
 
-
 .conteiner3{
     display: flex; 
     flex-direction:row;
@@ -106,8 +103,7 @@ p{
     margin-top: 5px;
 }
 .menufooter{
-    display: flex;
-   
+    display: flex;   
 }
 
 .menufooter a{   

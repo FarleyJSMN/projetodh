@@ -4,7 +4,6 @@
     list-style: none;
 }
 
-
 img{
     max-width: 100%;
     display: block;
@@ -19,20 +18,18 @@ img{
     background-color: black;
     flex-wrap: wrap;
 }
+
 .menu{
-    display: flex;
-   
+    display: flex;   
 }
 
 .menu a{   
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    /* font-size: 25px; */
     font-weight: 800;
     padding: 10px;
     text-align: center;
     margin-left: 10px;
-    /* background: tomato; */
 }
 
 .logo p{    
@@ -40,7 +37,6 @@ img{
     font-weight: 800;
     padding: 10px;
     font-size: 20px;
-    /* background: tomato; */    
 }
 
 .logo{
@@ -54,34 +50,6 @@ img{
 .status a img {
     display: inline-block;
     padding: 10px;
-}
-
-/* Footer */
-.footer1{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    background-color: black;
-    flex-wrap: wrap;
-    position: absolute;
-    bottom: 0px;
-}
-.menufooter{
-    display: flex;
-   
-}
-
-.menufooter a{   
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    /* font-size: 25px; */
-    font-weight: 800;
-    padding: 10px;
-    text-align: center;
-    margin-left: 10px;
-    /* background: tomato; */
-    
 }
 
 .container-form-cadastro {
@@ -106,8 +74,7 @@ img{
     align-items: center;
     font-size: 20px;
     width: 100%;
-    margin: 15px
-    
+    margin: 15px;    
 }
 
 .button2 {
@@ -153,6 +120,30 @@ input {
     height: 30px;
     border-radius: 5px;
     background-color: azure;
+}
+
+/* Footer */
+.footer1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: black;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0px;
+}
+.menufooter{
+    display: flex;   
+}
+
+.menufooter a{   
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;    
 }
 
 

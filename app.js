@@ -10,7 +10,6 @@ const bikesRouter = require('./routes/bikesRouter');
 const pecasRouter = require('./routes/pecasRouter');
 const acessoriosRouter = require('./routes/acessoriosRouter');
 
-
 var app = express();
 
 // view engine setup

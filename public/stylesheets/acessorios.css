@@ -4,7 +4,6 @@
     list-style: none;
 }
 
-
 img{
     max-width: 100%;
     display: block;
@@ -20,8 +19,7 @@ img{
     flex-wrap: wrap;
 }
 .menu ul{
-    display: flex;
-   
+    display: flex;   
 }
 
 .menu a{   

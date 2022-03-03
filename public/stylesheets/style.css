@@ -4,7 +4,6 @@
     list-style: none;
 }
 
-
 img{
     max-width: 100%;
     display: block;
@@ -101,8 +100,7 @@ h1{
     flex-wrap: wrap;
 }
 .menufooter ul {
-    display: flex;
-   
+    display: flex;   
 }
 
 .menufooter a{   

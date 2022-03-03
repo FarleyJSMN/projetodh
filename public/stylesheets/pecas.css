@@ -4,7 +4,6 @@
     list-style: none;
 }
 
-
 img{
     max-width: 100%;
     display: block;
@@ -20,8 +19,7 @@ img{
     flex-wrap: wrap;
 }
 .menu ul{
-    display: flex;
-   
+    display: flex;   
 }
 
 .menu a{   
@@ -142,8 +140,6 @@ img{
 p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
- 
-
 
 /* Footer */
 .footer1{

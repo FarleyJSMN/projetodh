@@ -6,71 +6,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIKE SHOP</title>
-    <link href="./css/cadastroform.css" rel="stylesheet" />
+    <link href="/stylesheets/cadastroform.css" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
+    <%- include('./partials/header.ejs') %>
+    <!-- <header>
         <section class="container">
             <div class="logo">
                 <a href="/projetodh/index.html"><img src="./imagens/header/Outline/Logo/Vector.png"></a>
                 <p>BIKE SHOP</p>
-            </div>            
+            </div>
             <nav class="menu">
                 <a href="">BIKES</a>
                 <a href="">PEÇAS</a>
                 <a href="">ACESSÓRIOS</a>
                 <a href="">OFICINA</a>
-            </nav>            
+            </nav>
             <nav class="status">
                 <a href=""><img src="./imagens/header/Outline/Shapes/heart.png"></a>
                 <a href=""><img src="./imagens/header/Outline/Shopping/cart.png"></a>
                 <a href=""><img src="./imagens/header/Outline/Users/profile.png"></a>
             </nav>
         </section>
-    </header>
-    <div class="container-form-cadastro">
+    </header> -->
+    <section>
+        <div class="container-form-cadastro">
+            <div class="container-cadastro">
+                <span class="conta">
+                    Olá, crie sua conta
+                </span>
+            </div>
 
-        <div class="container-cadastro">
-            <span class="conta">
-                Olá, crie sua conta
-            </span>
-        </div>
-            
-        <form class="form-criarConta" action="/register" method="post">
-            <label for="name">Nome</label>
-            <input type="name" name="name" id="name" required>
-            <label for="sobrenome">Sobrenome</label>
-            <input type="sobrenome" name="sobrenome" id="sobrenome" required>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
-            <label for="password">Senha</label>
-            <input type="password" name="password" id="senha">
-            <label for="confirmar">Confirmar Senha</label>
-            <input type="password" name="confirmpassaword" id="confirm" required>
+            <form class="form-criarConta" action="/register" method="post">
+                <label for="name">Nome</label>
+                <input type="name" name="name" id="name" required>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="sobrenome" name="sobrenome" id="sobrenome" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="senha">
+                <label for="confirmar">Confirmar Senha</label>
+                <input type="password" name="confirmpassaword" id="confirm" required>
 
-        </form>
-        <div class="button2">
-            <button class="createbtn"> Criar Conta </button>
-            <button class="enterbtn"> Entrar </button>
+            </form>
+
+            <div class="button2">
+                <button class="createbtn"> Criar Conta </button>
+                <button class="enterbtn"> Entrar </button>
+            </div>
         </div>
-    </div>
-                
-        
+    </section>
     <footer>
         <section class="footer1">
             <nav class="menufooter menu">
                 <ul>
                     <li><a href="">PRIVACIDADE</a></li>
-                   <li><a href="">TERMOS DE USO</a></li> 
-                   <li> <a href="">CONTATO</a></li>
-                   <li><a href="">SUPORTE</a></li> 
-                   <li><a href="">SOBRE</a></li> 
-                   <li><a href="">REVENDA</a></li> 
+                    <li><a href="">TERMOS DE USO</a></li>
+                    <li> <a href="">CONTATO</a></li>
+                    <li><a href="">SUPORTE</a></li>
+                    <li><a href="">SOBRE</a></li>
+                    <li><a href="">REVENDA</a></li>
                 </ul>
-               
+
             </nav>
         </section>
     </footer>
+
+
 </body>
+
 </html>
