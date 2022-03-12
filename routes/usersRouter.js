@@ -8,5 +8,7 @@ router.get('/', function(req, res, next) {
 });
 router.get('/cadastro', usuarioController.cadastro)
 router.get('/login', usuarioController.login)
+router.post('/login', usuarioController.loginForm)
+router.get('/voltaHome', usuarioController.voltaHome)
 
 module.exports = router;

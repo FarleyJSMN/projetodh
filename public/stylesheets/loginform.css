@@ -149,13 +149,12 @@ input {
     bottom: 0px;
 }
 .menufooter{
-    display: flex;
-   
+    display: flex;   
 }
 
 .menufooter a{   
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-weight: 800;
     padding: 10px;
     text-align: center;
