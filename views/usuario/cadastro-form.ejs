@@ -33,31 +33,38 @@
         <div class="container-form-cadastro">
             <div class="container-cadastro">
                 <span class="conta">
-                    Olá, crie sua conta
+                    Criar seu cadastro
                 </span>
             </div>
 
-            <form class="form-criarConta" action="/register" method="post">
-                <label for="name">Nome</label>
+            <form class="form-criarConta" action="/users/cadastro" method="post">
+
+                <label for="name">Nome completo</label>
                 <input type="name" name="name" id="name" required>
+<!-- 
                 <label for="sobrenome">Sobrenome</label>
-                <input type="sobrenome" name="sobrenome" id="sobrenome" required>
-                <label for="email">Email</label>
+                <input type="sobrenome" name="sobrenome" id="sobrenome" required> -->
+
+                <label for="email">E-mail</label>
                 <input type="email" name="email" id="email" required>
+
                 <label for="password">Senha</label>
-                <input type="password" name="password" id="senha">
-                <label for="confirmar">Confirmar Senha</label>
-                <input type="password" name="confirmpassaword" id="confirm" required>
+                <input type="password" name="password" id="password">
+
+                <!-- <label for="confirmar">Confirmar Senha</label> -->
+                <!-- <input type="password" name="confirmpassaword" id="confirm" required> -->
+
+                <div class="button2">
+                    <button class="createbtn"> Criar cadastro </button>
+                    <!-- <button class="enterbtn"> Entrar </button> -->
+                </div>
 
             </form>
 
-            <div class="button2">
-                <button class="createbtn"> Criar Conta </button>
-                <button class="enterbtn"> Entrar </button>
-            </div>
+            
         </div>
     </section>
-    <footer>
+    <!-- <footer>
         <section class="footer1">
             <nav class="menufooter menu">
                 <ul>
@@ -71,7 +78,7 @@
 
             </nav>
         </section>
-    </footer>
+    </footer> -->
 
 
 </body>

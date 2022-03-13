@@ -7,6 +7,8 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 router.get('/cadastro', usuarioController.cadastro)
+router.post('/cadastro', usuarioController.cadastroForm)
+router.get('/voltaLogin', usuarioController.login)
 router.get('/login', usuarioController.login)
 router.post('/login', usuarioController.loginForm)
 router.get('/voltaHome', usuarioController.voltaHome)

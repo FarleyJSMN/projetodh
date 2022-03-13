@@ -12,6 +12,13 @@ const usuarioController = {
     },
     voltaHome: (req, res) => {
         res.render('index', {listaOfertas: modelOfertas})
+    },
+    cadastroForm: (req, res) => {
+        const {name, email, password} = req.body
+        res.redirect('voltaLogin')
+    },
+    voltaLogin: (req, res) => {
+        res.render('usuario/login-form')
     }
 }
 
