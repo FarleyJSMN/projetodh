@@ -110,7 +110,8 @@ input {
     flex-direction: column;
     margin: 10px;
     border-radius: 15px;
-    font-size: 20px;    
+    font-size: 20px;
+    align-items: center;    
 }
 
 .enterbtn:hover {
@@ -125,7 +126,8 @@ input {
     margin: 10px;
     border-radius: 15px;
     font-size: 20px;
-    color: green;       
+    color: green;
+    align-items: center;       
 }
 
 .createbtn:visited {

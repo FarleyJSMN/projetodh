@@ -92,12 +92,17 @@ img{
     flex-direction: column;
     margin: 10px;
     border-radius: 15px;
-    font-size: 20px;        
+    font-size: 20px;
+    align-items: center;        
 }
 
 .createbtn:hover {
     background-color: #bd4714;
     cursor: pointer;
+}
+
+.entrar {
+    text-decoration: underline;
 }
 
 .enterbtn {
