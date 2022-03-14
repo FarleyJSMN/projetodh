@@ -9,13 +9,17 @@ img{
     display: block;
 }
 
+body {
+    margin: 0px;
+}
+
 /* Header */
 .container{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #BD4714;
     flex-wrap: wrap;
 }
 .menu ul{
@@ -32,7 +36,7 @@ img{
     margin-left: 10px;
 }
 .menu a:hover{
-    color: #BD4714;
+    color: #000000;
     transition: 0.5s;
 }
 
@@ -55,6 +59,7 @@ img{
     display: inline-block;
     padding: 10px;
 }
+
 
 /* Body */
 h1{
@@ -92,11 +97,11 @@ h1{
 
 /* Footer */
 .footer1{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-color: #BD4714;
     flex-wrap: wrap;
 }
 .menufooter ul {

@@ -9,13 +9,17 @@ img{
     display: block;
 }
 
+body {
+    margin: 0px;
+}
+
 /* Header */
 .container{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #BD4714;
     flex-wrap: wrap;
 }
 .menu ul{
@@ -31,7 +35,7 @@ img{
     margin-left: 10px;
 }
 .menu a:hover{
-    color: #BD4714;
+    color: #000000;
     transition: 0.5s;
 }
 
@@ -66,6 +70,11 @@ img{
     align-content: center;
     background: rgb(196, 186, 186);
     padding: 5px;
+    width: 100vw;
+}
+
+.conteiner1 img {
+    border-radius: 9px;
 }
 
 .conteiner2{
@@ -94,13 +103,13 @@ p{
 
 /* Footer */
 .footer1{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-color: #BD4714;
     flex-wrap: wrap;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 .menufooter{
     display: flex;   
