@@ -10,25 +10,8 @@
 </head>
 
 <body>
-    <header>
-        <section class="container">
-            <div class="logo">
-                <a href="/projetodh/index.html"><img src="./imagens/header/Outline/Logo/Vector.png"></a>
-                <p>BIKE SHOP</p>
-            </div>
-            <nav class="menu">
-                <a href="">BIKES</a>
-                <a href="">PEÇAS</a>
-                <a href="">ACESSÓRIOS</a>
-                <a href="">OFICINA</a>
-            </nav>
-            <nav class="status">
-                <a href=""><img src="./imagens/header/Outline/Shapes/heart.png"></a>
-                <a href=""><img src="./imagens/header/Outline/Shopping/cart.png"></a>
-                <a href=""><img src="./imagens/header/Outline/Users/profile.png"></a>
-            </nav>
-        </section>
-    </header>
+    <%- include('../partials/header.ejs') %>
+    
     <section>
         <div class="container-form-cadastro">
             <div class="container-cadastro">
@@ -69,23 +52,7 @@
             
         </div>
     </section>
-    <!-- <footer>
-        <section class="footer1">
-            <nav class="menufooter menu">
-                <ul>
-                    <li><a href="">PRIVACIDADE</a></li>
-                    <li><a href="">TERMOS DE USO</a></li>
-                    <li> <a href="">CONTATO</a></li>
-                    <li><a href="">SUPORTE</a></li>
-                    <li><a href="">SOBRE</a></li>
-                    <li><a href="">REVENDA</a></li>
-                </ul>
-
-            </nav>
-        </section>
-    </footer> -->
-
-
+    <%- include('../partials/footer.ejs') %>
 </body>
 
 </html>

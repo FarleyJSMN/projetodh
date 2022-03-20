@@ -9,34 +9,42 @@ img{
     display: block;
 }
 
+body {
+    margin: 0px;
+}
+
 /* Header */
 .container{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #BD4714;
     flex-wrap: wrap;
 }
-
-.menu{
-    display: flex;   
+.menu ul{
+    display: flex;
+   
 }
 
 .menu a{   
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 800;
     padding: 10px;
     text-align: center;
     margin-left: 10px;
+}
+.menu a:hover{
+    color: #000000;
+    transition: 0.5s;
 }
 
 .logo p{    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 800;
     padding: 10px;
-    font-size: 20px;
+    font-size: 20px;    
 }
 
 .logo{
@@ -52,14 +60,15 @@ img{
     padding: 10px;
 }
 
+/* Body */
 .container-form-cadastro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 100vw;
+    /* margin-top: 20vh; */
+    /* margin-bottom: 20vh; */
 }
 
 .conta {
@@ -129,16 +138,14 @@ input {
 
 /* Footer */
 .footer1{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
-    background-color: black;
+    align-items: center;
+    background-color: #BD4714;
     flex-wrap: wrap;
-    position: absolute;
-    bottom: 0px;
 }
-.menufooter{
+.menufooter ul {
     display: flex;   
 }
 
@@ -148,5 +155,5 @@ input {
     font-weight: 800;
     padding: 10px;
     text-align: center;
-    margin-left: 10px;    
+    margin-left: 10px;
 }
