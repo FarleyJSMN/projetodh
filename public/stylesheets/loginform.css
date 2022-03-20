@@ -22,23 +22,27 @@ body {
     background-color: #BD4714;
     flex-wrap: wrap;
 }
-
-.menu{
-    display: flex; 
+.menu ul{
+    display: flex;
+   
 }
 
 .menu a{   
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;    
-    font-weight:lighter;
-    padding: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding: 10px;
     text-align: center;
     margin-left: 10px;
+}
+.menu a:hover{
+    color: #000000;
+    transition: 0.5s;
 }
 
 .logo p{    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 800;
     padding: 10px;
     font-size: 20px;    
 }
@@ -49,7 +53,6 @@ body {
     justify-content: space-between;    
     margin-left: 10px;       
     align-items: center;
-
 }
 
 .status a img {
@@ -57,6 +60,7 @@ body {
     padding: 10px;
 }
 
+/* Body */
 .container-form {
     display: flex;
     flex-direction: column;
@@ -81,8 +85,8 @@ body {
     width: 100%;  
 }
 
-ul, li {
-    width: 25%;
+.lembrete {
+    width: 20vw;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -148,18 +152,16 @@ input {
     width: 100vw;
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
-    background-color: black;
+    align-items: center;
+    background-color: #BD4714;
     flex-wrap: wrap;
-    position: absolute;
-    bottom: 0px;
 }
-.menufooter{
+.menufooter ul {
     display: flex;   
 }
 
 .menufooter a{   
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-weight: 800;
     padding: 10px;

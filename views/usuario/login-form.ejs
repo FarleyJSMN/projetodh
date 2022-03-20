@@ -10,67 +10,37 @@
 </head>
 
 <body>
-  
-    <header>
-        <section class="container">
-            <div class="logo">
-                <a href="/projetodh/index.html"><img src="./imagens/header/Outline/Logo/Vector.png"></a>
-                <p>BIKE SHOP</p>
-            </div>            
-            <nav class="menu">
-                <a href="">BIKES</a>
-                <a href="">PEÇAS</a>
-                <a href="">ACESSÓRIOS</a>
-                <a href="">OFICINA</a>
-            </nav>            
-            <nav class="status">
-                <a href=""><img src="./imagens/header/Outline/Shapes/heart.png"></a>
-                <a href=""><img src="./imagens/header/Outline/Shopping/cart.png"></a>
-                <a href=""><img src="./imagens/header/Outline/Users/profile.png"></a>
-            </nav>
-        </section>
-    </header>
-    <div class="container-form">
+    <%- include('../partials/header.ejs') %>
 
-        <div class="container-login">
-            <span class="login">
-                Login do Cliente
-            </span>
-        </div>
-        
-        <form class="form-login" action="/users/login" method="post">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
+        <div class="container-form">
 
-            <label for="password">Senha</label>
-            <input type="password" name="senha" id="senha" required>
-            
-            <ul>
-                <li> Lembrar-me <input type="checkbox" name="check" id="check" required></li>
-                <li><a href=""> Lembrar senha? </a></li>
-            </ul>
-            
-            <div class="button">
-                <button class="enterbtn"> Entrar </button>
-                <button class="createbtn"><a href="/users/cadastro"> Cadastre-se </a></button>
+            <div class="container-login">
+                <span class="login">
+                    Login do Cliente
+                </span>
             </div>
-        </form>
-    </div>
 
-    <footer>
-        <section class="footer1">
-            <nav class="menufooter">
-                <ul>
-                    <li><a href="">PRIVACIDADE</a></li>
-                   <li><a href="">TERMOS DE USO</a></li> 
-                   <li> <a href="">CONTATO</a></li>
-                   <li><a href="">SUPORTE</a></li> 
-                   <li><a href="">SOBRE</a></li> 
-                   <li><a href="">REVENDA</a></li> 
-                </ul>
-               
-            </nav>
-        </section>
-    </footer>
+            <form class="form-login" action="/users/login" method="post">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="password">Senha</label>
+                <input type="password" name="senha" id="senha" required>
+
+                <div class="lembrete">
+                    <ul>
+                        <li> Lembrar-me <input type="checkbox" name="check" id="check" required></li>
+                        <li><a href=""> Lembrar senha? </a></li>
+                    </ul>
+                </div>
+
+                <div class="button">
+                    <button class="enterbtn"> Entrar </button>
+                    <button class="createbtn"><a href="/users/cadastro"> Cadastre-se </a></button>
+                </div>
+            </form>
+        </div>
+        <%- include('../partials/footer.ejs') %>
 </body>
+
 </html>
