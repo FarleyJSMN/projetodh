@@ -4,6 +4,7 @@
     list-style: none;
 }
 
+
 img{
     max-width: 100%;
     display: block;
@@ -115,4 +116,64 @@ h1{
     padding: 10px;
     text-align: center;
     margin-left: 10px;
+}
+
+
+ /* Barra de busca */
+.buscar {
+    width: 25rem;
+    position: relative;
+    background: #fff ;
+    border-radius: .7rem;
+    
+}
+
+button, input {
+    height: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+button {
+    display: inside;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5rem;
+    font-weight: 800px;
+    background: #fff;
+    border-radius: 0 .7rem .7rem 0;
+}
+
+input[type="search"] {
+    outline: 0;
+    width: 100%;
+    background: #fff;
+    padding: 0 1.6rem;
+    border-radius: .7rem;
+    appearance: none;
+    transition: all .3s cubic-bezier(0, 0, 0.43, 1.49);
+    transition-property: width, border-radius;
+    z-index: 1;
+    position: relative;
+    
+}
+
+label {
+    position: absolute;
+    padding: 2px;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+input:not(:placeholder-shown) {
+    border-radius: .7rem 0 0 .7rem;
+    width: calc(100% - 5rem);
+    + button {
+    display: block;
+  }
 }

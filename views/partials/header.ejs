@@ -5,13 +5,21 @@
             <p>BIKE SHOP</p>
         </div>
         <nav class="menu">
-            <ul>
+        <ul>
            <li> <a href="/bikes/bikes">BIKES</a> </li>
            <li> <a href="/pecas/pecas">PEÇAS</a> </li>
            <li> <a href="/acessorios/acessorios">ACESSÓRIOS</a> </li>
            <li> <a href="">OFICINA</a> </li>
         </ul>
-        </nav>
+    </nav>
+    <div class="buscar">
+        <form onsubmit="event.preventDefault();" role="search">
+            <label for="search"> Procurar </label>
+            <input id="search" type="search" placeholder="Procurar..." autofocus required />
+            <button type="submit">BUSCAR</button>    
+        </form>
+
+    </div>
         <nav class="status">
             <a href=""><img src="/images/header/Outline/Shapes/heart.png"></a>
             <a href=""><img src="/images/header/Outline/Shopping/cart.png"></a>
