@@ -15,9 +15,6 @@
         "id": 5, "nome": "Garfo Cross 20''", "preco": "R$ 699,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/garfos/GARFO-CROSS-20”/garfo_cross_20.jpg"
     },
     {
-        "id": 6, "nome": "Garfo Steel Espiga Standard 26''", "preco": "R$ 1.791,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/garfos/GARFO-RIGIDO-STANDARD-GTSM1/GARFO-26-STEEL-ESPIGA-STANDARD-COM-ROSCA-DINIZ.png"
-    },
-    {
         "id": 7, "nome": "Guidão Cockpit Alpinist SL", "preco": "R$ 1.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/guidoes/Cockpit-Alpinist-SL/21021-032_CMPNT_ROVAL-ALPINIST-RD-COCKPIT-CARB-BLK-318X400-80MM_HERO-1.webp"
     },
     {
@@ -43,15 +40,6 @@
     },
     {
         "id": 15, "nome": "Pneu Specialized Fast Trak Sport", "preco": "R$ 699,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/pneus-e-camaras/Pneu-Specialized-Fast-Trak-Sport/001E-402_TIRE_FAST-TRAK-SPORT_BLK_FRONT.webp"
-    },
-    {
-        "id": 16, "nome": "Flash 29''", "preco": "R$ 1.791,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/quadros/FLASH-29″/FLASH-1.png"
-    },
-    {
-        "id": 17, "nome": "Storm 26''", "preco": "R$ 1.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/quadros/STORM-26”/STORM-1-1.png"
-    },
-    {
-        "id": 18, "nome": "Swit 29''", "preco": "R$ 5.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/quadros/SWIT-29”/SWIFT-PRETO-LARANJA-1.png"
     },
     {
         "id": 19, "nome": "Roda Roval CLX 50 – Traseira", "preco": "R$ 6.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/rodas/Roda-Roval-CLX-50–Traseira/30017-8202_WHL_CLX-50-REAR_SATIN-CARBON-GLOSS-BLK.webp"

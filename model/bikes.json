@@ -19,11 +19,5 @@
     },
     {
         "id": 7, "nome": "Style", "preco": "R$ 1.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/Bikes/Style/155488-1200-900.jpg"
-    },
-    {
-        "id": 8, "nome": "S-Works Diverge", "preco": "R$ 5.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/Bikes/S-WorksDiverge/95422-00_DIVERGE-SW-LTSIL-DRMSIL-DSTBLU_HERO.webp"
-    },
-    {
-        "id": 9, "nome": "Turbo Como SL 5.0", "preco": "R$ 6.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/Bikes/TurboComoSL5.0/90121-33_COMO-SL-50-BRSH-TRNSP_HERO.webp"
     }
 ]
