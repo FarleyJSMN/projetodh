@@ -11,3 +11,5 @@ const Endereco = (sequelize, DataTypes) => {
     })
     return endereco
 }
+
+module.exports = Endereco
