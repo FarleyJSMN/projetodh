@@ -1,5 +1,5 @@
 const Peca = (sequelize, DataTypes) => {
-    const peca = sequelize.define('Peca', {
+    let peca = sequelize.define('Peca', {
         nome_peca: DataTypes.STRING,
         preco_peca: DataTypes.STRING,
         descricao_peca: DataTypes.TEXT
@@ -7,6 +7,15 @@ const Peca = (sequelize, DataTypes) => {
         tableName: 'peca',
         timestamps: false
     })
+    peca.associate = (models) => {
+        peca.belongsToMany(models.Pedido, {
+            foreignKey: 'pedido_id',
+            as: 'peca_pedido',
+            through: 'PecaHasPedido',
+            otherKey: 'pedido_id'
+        })
+    }
+
     return peca
 }
 
