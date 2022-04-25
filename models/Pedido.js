@@ -1,5 +1,5 @@
 const Pedido = (sequelize, DataTypes) => {
-    const pedido = sequelize.define('Pedido', {
+    let pedido = sequelize.define('Pedido', {
         usuario_id: DataTypes.INTEGER,     
     },{
         tableName: 'pedido',
@@ -9,6 +9,12 @@ const Pedido = (sequelize, DataTypes) => {
         pedido.belongsTo(models.Usuario, {
             foreignKey: 'usuario_id',
             as: 'pedido_usuario'
+        })
+        pedido.belongsToMany(models.Acessorio, {
+            foreignKey: 'acessorio_id',
+            as: 'pedido_acessorio',
+            through: 'AcessorioHasPedido',
+            otherKey: 'acessorio_id'
         })
     }
 
