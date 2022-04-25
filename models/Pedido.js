@@ -5,6 +5,12 @@ const Pedido = (sequelize, DataTypes) => {
         tableName: 'pedido',
         timestamps: false
     })
+    pedido.associate = (models) => {
+        pedido.belongsTo(models.Usuario, {
+            foreignKey: 'usuario_id',
+            as: 'pedido_usuario'
+        })
+    }
 
     return pedido
 }
