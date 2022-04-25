@@ -1,5 +1,5 @@
 const AcessorioHasPedido = (sequelize, DataTypes) => {
-    const acessorioPedido = sequelize.define('AcessorioHasPedido', {
+    let acessorioPedido = sequelize.define('AcessorioHasPedido', {
         acessorio_id: DataTypes.INTEGER,
         pedido_id: DataTypes.INTEGER,
         quantidade: DataTypes.INTEGER,
