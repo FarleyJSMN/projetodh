@@ -22,6 +22,12 @@ const Pedido = (sequelize, DataTypes) => {
             through: 'BicicletaHasPedido',
             otherKey: 'bicicleta_id'
         })
+        pedido.belongsToMany(models.Peca, {
+            foreignKey: 'peca_id',
+            as: 'pedido_peca',
+            through: 'PecaHasPedido',
+            otherKey: 'peca_id'
+        })
     }
 
     return pedido
