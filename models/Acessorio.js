@@ -1,5 +1,5 @@
 const Acessorio = (sequelize, DataTypes) => {
-    const acessorio = sequelize.define('Acessorio', {
+    let acessorio = sequelize.define('Acessorio', {
         nome_acessorio: DataTypes.STRING,
         preco_acessorio: DataTypes.STRING,
         descricao_acessorio: DataTypes.TEXT
@@ -7,6 +7,15 @@ const Acessorio = (sequelize, DataTypes) => {
         tableName: 'acessorio',
         timestamps: false
     })
+    acessorio.associate = (models) => {
+        acessorio.belongsToMany(models.Pedido, {
+            foreignKey: 'pedido_id',
+            as: 'acessorio_pedido',
+            through: 'AcessorioHasPedido',
+            otherKey: 'pedido_id'
+        })
+    }
+
     return acessorio
 }
 
