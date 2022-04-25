@@ -1,5 +1,6 @@
 const { sequelize, Endereco, Usuario, Pedido, Peca, Bicicleta, Acessorio } = require('./models/index')
 
+//Teste de relacionamento entre models/tabelas - CREATE
 const testeUsuario = async () => {
     const criandoUsuario = await Usuario.create({
         nome: 'Junio',
@@ -66,3 +67,26 @@ const testeAcessorio = async () => {
     sequelize.close()
 } 
 // testeAcessorio()
+
+//Teste de relacionamento entre models/tabelas - SELECT
+
+//Buscando informações de Usuário pelo ID incluindo na busca o Endereço do mesmo.
+Usuario.findByPk(1, {include: ['usuario_endereco']}).then((buscandoUsuario) => {
+    console.log(buscandoUsuario.toJSON())
+})
+//Buscando informações do Pedido pelo ID incluindo na busca o Usuario.
+Pedido.findByPk(3, {include: ['pedido_usuario']}).then((buscandoPedido) => {
+    console.log(buscandoPedido.toJSON())
+})
+//Buscando informações de Acessorio pelo ID incluindo na busca o Pedido.
+Acessorio.findByPk(1, {include: ['acessorio_pedido']}).then((buscandoAcessorio) => {
+    console.log(buscandoAcessorio.toJSON())
+})
+//Buscando informações de Bicicleta pelo ID incluindo na busca o Pedido.
+Bicicleta.findByPk(1, {include: ['bicicleta_pedido']}).then((buscandoBicicleta) => {
+    console.log(buscandoBicicleta.toJSON())
+})
+//Buscando informações de Peca pelo ID incluindo na busca o Pedido.
+Peca.findByPk(1, {include: ['peca_pedido']}).then((buscandoPeca) => {
+    console.log(buscandoPeca.toJSON())
+})
