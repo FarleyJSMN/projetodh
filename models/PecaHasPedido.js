@@ -1,5 +1,5 @@
 const PecaHasPedido = (sequelize, DataTypes) => {
-    const pecaPedido = sequelize.define('PecaHasPedido', {
+    let pecaPedido = sequelize.define('PecaHasPedido', {
         peca_id: DataTypes.INTEGER,
         pedido_id: DataTypes.INTEGER,
         quantidade: DataTypes.INTEGER,
@@ -7,6 +7,7 @@ const PecaHasPedido = (sequelize, DataTypes) => {
         tableName: 'peca_has_pedido',
         timestamps: false
     })
+
     return pecaPedido
 }
 
