@@ -1,5 +1,5 @@
 const BicicletaHasPedido = (sequelize, DataTypes) => {
-    bicicletaPedido = sequelize.define('BicicletaHasPedido', {
+    let bicicletaPedido = sequelize.define('BicicletaHasPedido', {
         bicicleta_id: DataTypes.INTEGER,
         pedido_id: DataTypes.INTEGER,
         quantidade: DataTypes.INTEGER,
@@ -7,6 +7,7 @@ const BicicletaHasPedido = (sequelize, DataTypes) => {
         tableName: 'bicicleta_has_pedido',
         timestamps: false
     })
+    
     return bicicletaPedido
 }
 
