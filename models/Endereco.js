@@ -1,5 +1,5 @@
 const Endereco = (sequelize, DataTypes) => {
-    const endereco = sequelize.define('Endereco', {
+    let endereco = sequelize.define('Endereco', {
         rua: DataTypes.STRING,
         cidade: DataTypes.STRING,
         estado: DataTypes.STRING,
@@ -9,6 +9,13 @@ const Endereco = (sequelize, DataTypes) => {
         tableName: "endereco",
         timestamps: false
     })
+    endereco.associate = (models) => {
+        endereco.belongsTo(models.Usuario, {
+            foreignKey: 'usuario_id',
+            as: 'endereco_usuario'
+        })
+    }
+
     return endereco
 }
 
