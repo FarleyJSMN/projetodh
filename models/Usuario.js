@@ -12,7 +12,11 @@ const Usuario = (sequelize, DataTypes) => {
         usuario.hasMany(models.Endereco, {
             foreignKey: 'usuario_id',
             as: 'usuario_endereco'
-        })
+        }) 
+        usuario.hasMany(models.Pedido, {
+            foreignKey: 'usuario_id',
+            as: 'usuario_pedido'
+        }) 
     }
 
     return usuario 
