@@ -5,7 +5,7 @@
 }
 
 img{
-    max-width: 100%;
+    max-width: 80%;
     /* display: block; */
 }
 
@@ -148,13 +148,14 @@ input {
 }
 
 /* Footer */
-.footer1{
-    width: 100vw;
+/* .footer1{
+    width: 100vmax;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #BD4714;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
 }
 .menufooter ul {
     display: flex;   
@@ -167,4 +168,4 @@ input {
     padding: 10px;
     text-align: center;
     margin-left: 10px;
-}
+} */
