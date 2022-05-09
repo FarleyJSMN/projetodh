@@ -1,23 +1,23 @@
 [
     {
-        "id": 1, "nome": "Comodo 700", "preco": "R$ 2.232,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/Bikes/Comodo700/155785-1200-900.jpg"
+        "id": 1, "nome": "Comodo 700", "preco": "R$ 2.232,00", "descricao": "", "img": "/images/img-bikeshop/Bikes/Comodo700/155785-1200-900.jpg"
     },
     {
-        "id": 2, "nome": "Comodo", "preco": "R$ 1.752,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/Bikes/Comodo/155725-1200-900.jpg"
+        "id": 2, "nome": "Comodo", "preco": "R$ 1.752,00", "descricao": "", "img": "/images/img-bikeshop/Bikes/Comodo/155725-1200-900.jpg"
     },
     {
-        "id": 3, "nome": "Ella", "preco": "R$ 1.791,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/Bikes/Ella/155676-1200-900.jpg"
+        "id": 3, "nome": "Ella", "preco": "R$ 1.791,00", "descricao": "", "img": "/images/img-bikeshop/Bikes/Ella/155676-1200-900.jpg"
     },
     {
-        "id": 4, "nome": "Gavea", "preco": "R$ 2.072,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/Bikes/Gavea/155799-1200-900.jpg"
+        "id": 4, "nome": "Gavea", "preco": "R$ 2.072,00", "descricao": "", "img": "/images/img-bikeshop/Bikes/Gavea/155799-1200-900.jpg"
     },
     {
-        "id": 5, "nome": "Luna", "preco": "R$ 699,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/Bikes/Luna/155673-1200-900.jpg"
+        "id": 5, "nome": "Luna", "preco": "R$ 699,00", "descricao": "", "img": "/images/img-bikeshop/Bikes/Luna/155673-1200-900.jpg"
     },
     {
-        "id": 6, "nome": "Terral", "preco": "R$ 1.791,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/Bikes/Terral/155536-1200-900.jpg"
+        "id": 6, "nome": "Terral", "preco": "R$ 2.791,00", "descricao": "", "img": "/images/img-bikeshop/Bikes/Terral/155536-1200-900.jpg"
     },
     {
-        "id": 7, "nome": "Style", "preco": "R$ 1.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/Bikes/Style/155488-1200-900.jpg"
+        "id": 7, "nome": "Style", "preco": "R$ 1.590,00", "descricao": "", "img": "/images/img-bikeshop/Bikes/Style/155488-1200-900.jpg"
     }
 ]
