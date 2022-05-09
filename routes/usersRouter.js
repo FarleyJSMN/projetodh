@@ -1,16 +1,14 @@
 var express = require('express');
 var router = express.Router();
-const usuarioController = require('../controller/usuarioController')
+const usuario = require('../controller/Usuario/criarUsuario')
+const cadastro = require('../controller/Usuario/criarUsuario')
+const login = require('../controller/Usuario/criarLogin')
+const validaCadastro = require('../middlewares/Usuario/validacaoCadastro')
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
-router.get('/cadastro', usuarioController.cadastro)
-router.post('/cadastro', usuarioController.cadastroForm)
-router.get('/voltaLogin', usuarioController.login)
-router.get('/login', usuarioController.login)
-router.post('/login', usuarioController.loginForm)
-router.get('/voltaHome', usuarioController.voltaHome)
+router.get('/cadastro', cadastro.telaCadastro)
+router.post('/cadastro', usuario.criarUsuario)
+
+router.get('/login', login.telaLogin)
+router.post('/login', login.criarLogin)
 
 module.exports = router;
