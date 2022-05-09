@@ -16,26 +16,23 @@
         <div class="container-form-cadastro">
             <div class="container-cadastro">
                 <span class="conta">
-                    Criar seu cadastro
+                    Crie seu cadastro
                 </span>
             </div>
 
             <form class="form-criarConta" action="/users/cadastro" method="post">
 
-                <label for="name">Nome completo</label>
-                <input type="name" name="name" id="name" required>
-<!-- 
+                <label for="name">Nome</label>
+                <input type="name" name="nome" id="nome" required>
+
                 <label for="sobrenome">Sobrenome</label>
-                <input type="sobrenome" name="sobrenome" id="sobrenome" required> -->
+                <input type="sobrenome" name="sobrenome" id="sobrenome" required>
 
                 <label for="email">E-mail</label>
                 <input type="email" name="email" id="email" required>
 
                 <label for="password">Senha</label>
-                <input type="password" name="password" id="password">
-
-                <!-- <label for="confirmar">Confirmar Senha</label> -->
-                <!-- <input type="password" name="confirmpassaword" id="confirm" required> -->
+                <input type="password" name="senha" id="senha" required>
 
                 <div class="button2">
                     <button class="createbtn"> Criar cadastro </button>
@@ -45,14 +42,12 @@
                     <a>Já tem cadasto?</a>
                     <a class="entrar" href="/users/login">Entrar</a>
                 </div>
-                
 
             </form>
-
-            
+                        
         </div>
     </section>
-    <%- include('../partials/footer.ejs') %>
+    <!-- <%- include('../partials/footer.ejs') %> -->
 </body>
 
 </html>
