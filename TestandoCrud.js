@@ -58,35 +58,35 @@ const testeBicicleta = async () => {
 // testeBicicleta()
 
 const testeAcessorio = async () => {
-    const criandoAcessorio = await Acessorio.create({
+    const criandoAcessorio = await Acessorio.create({            
         nome_acessorio: 'acessorio teste',
         preco_acessorio: '63.98',
         descricao_acessorio: 'Tu vai gostar de mais desse acessorio'
     })
     console.log(criandoAcessorio.toJSON())
     sequelize.close()
-} 
+}
 // testeAcessorio()
 
 //Teste de relacionamento entre models/tabelas - SELECT
 
 //Buscando informações de Usuário pelo ID incluindo na busca o Endereço do mesmo.
-Usuario.findByPk(1, {include: ['usuario_endereco']}).then((buscandoUsuario) => {
+Usuario.findByPk(1, { include: ['usuario_endereco'] }).then((buscandoUsuario) => {
     console.log(buscandoUsuario.toJSON())
 })
 //Buscando informações do Pedido pelo ID incluindo na busca o Usuario.
-Pedido.findByPk(3, {include: ['pedido_usuario']}).then((buscandoPedido) => {
+Pedido.findByPk(3, { include: ['pedido_usuario'] }).then((buscandoPedido) => {
     console.log(buscandoPedido.toJSON())
 })
 //Buscando informações de Acessorio pelo ID incluindo na busca o Pedido.
-Acessorio.findByPk(1, {include: ['acessorio_pedido']}).then((buscandoAcessorio) => {
+Acessorio.findByPk(1, { include: ['acessorio_pedido'] }).then((buscandoAcessorio) => {
     console.log(buscandoAcessorio.toJSON())
 })
 //Buscando informações de Bicicleta pelo ID incluindo na busca o Pedido.
-Bicicleta.findByPk(1, {include: ['bicicleta_pedido']}).then((buscandoBicicleta) => {
+Bicicleta.findByPk(1, { include: ['bicicleta_pedido'] }).then((buscandoBicicleta) => {
     console.log(buscandoBicicleta.toJSON())
 })
 //Buscando informações de Peca pelo ID incluindo na busca o Pedido.
-Peca.findByPk(1, {include: ['peca_pedido']}).then((buscandoPeca) => {
+Peca.findByPk(1, { include: ['peca_pedido'] }).then((buscandoPeca) => {
     console.log(buscandoPeca.toJSON())
 })
