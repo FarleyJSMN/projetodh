@@ -4,12 +4,15 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const methodOverride = require('method-override');
+const session = require('express-session');
 
 const indexRouter = require('./routes/indexRouter');
 const usersRouter = require('./routes/usersRouter');
-const bikesRouter = require('./routes/bikesRouter');
-const pecasRouter = require('./routes/pecasRouter');
-const acessoriosRouter = require('./routes/acessoriosRouter');
+const bicicletaRouter = require('./routes/Bicicleta/bicicletaRouter');
+const pecasRouter = require('./routes/Peca/pecasRouter');
+const acessoriosRouter = require('./routes/Acessorio/acessoriosRouter');
+// const cadastroRouter = require('./routes/Usuario/cadastroRouter');
+// const loginRouter = require('./routes/Usuario/loginRouter');
 
 var app = express();
 
@@ -17,6 +20,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+app.use(session({secret: 'sessionSegura', resave: true, saveUninitialized: true}))
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -26,9 +30,11 @@ app.use(methodOverride('_method'));
 
 app.use('/index', indexRouter);
 app.use('/users', usersRouter);
-app.use('/bikes', bikesRouter);
+app.use('/bicicletas', bicicletaRouter);
 app.use('/pecas', pecasRouter);
 app.use('/acessorios', acessoriosRouter);
+// app.use('/usuario', cadastroRouter);
+// app.use('/usuario', loginRouter);
 
 
 // catch 404 and forward to error handler
