@@ -6,7 +6,7 @@ const login = require('../controller/Usuario/criarLogin')
 const validaCadastro = require('../middlewares/Usuario/validacaoCadastro')
 
 router.get('/cadastro', cadastro.telaCadastro)
-router.post('/cadastro', usuario.criarUsuario)
+router.post('/cadastro', validaCadastro,usuario.criarUsuario)
 
 router.get('/login', login.telaLogin)
 router.post('/login', login.criarLogin)
