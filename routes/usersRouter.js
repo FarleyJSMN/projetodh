@@ -4,11 +4,12 @@ const usuario = require('../controller/Usuario/criarUsuario')
 const cadastro = require('../controller/Usuario/criarUsuario')
 const login = require('../controller/Usuario/criarLogin')
 const validaCadastro = require('../middlewares/Usuario/validacaoCadastro')
+const validaLogin = require('../middlewares/Usuario/validacaoLogin')
 
 router.get('/cadastro', cadastro.telaCadastro)
-router.post('/cadastro', usuario.criarUsuario)
+router.post('/cadastro', validaCadastro,usuario.criarUsuario)
 
 router.get('/login', login.telaLogin)
-router.post('/login', login.criarLogin)
+router.post('/login', validaLogin,login.criarLogin)
 
 module.exports = router;
