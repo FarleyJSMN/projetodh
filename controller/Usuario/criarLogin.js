@@ -10,14 +10,13 @@ const criarLogin = async (req, res) => {
     const criandoLogin = await Usuario.findOne({ where: { email: email } })
 
     if (!criandoLogin) {
-        console.log('Email não existe no sistema')
+        res.render('usuario/login-form')
     } else {
-        const compareSenha = await bcrypt.compare(senha, criandoLogin.senha).then((resultado) => {
-            return resultado
-        })
-        if (compareSenha && email == criandoLogin.email) {
-            req.session.criandoLogin = email
-            res.redirect('/index')
+        const senhaCriptada = await bcrypt.compare(senha, criandoLogin.senha)
+
+        if (senhaCriptada && email == criandoLogin.email) {
+            req.session.user = email           
+            res.redirect('/index')           
         }
     }
 }
