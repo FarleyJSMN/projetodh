@@ -1,8 +1,6 @@
-const session = require('express-session');
-
 const validaUsuario = function (req, res, next){
-    const validandoUsuario = req.session.validandoUsuario
-    if (validandoUsuario) {
+    const validandoUsuario = req.session.user
+    if (validandoUsuario) {             
         next()
     }else{
         res.redirect('/users/login')
