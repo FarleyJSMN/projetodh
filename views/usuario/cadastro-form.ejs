@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIKE SHOP</title>
     <link href="/stylesheets/cadastroform.css" rel="stylesheet" />
+    <script src="/javascripts/validaFormulario.js" defer ></script>
 </head>
 
 <body>
     <%- include('../partials/header.ejs') %>
     
     <section>
+
         <div class="container-form-cadastro">
+
             <div class="container-cadastro">
                 <span class="conta">
                     Crie seu cadastro
@@ -22,30 +25,32 @@
 
             <form class="form-criarConta" action="/users/cadastro" method="post">
 
-                <label for="name">Nome</label>
-                <input type="name" name="nome" id="nome" required>
+                <label for="name" id="labelNome">Nome</label>
+                <input type="name" name="nome" id="nome" placeholder="Nome" required>
 
-                <label for="sobrenome">Sobrenome</label>
-                <input type="sobrenome" name="sobrenome" id="sobrenome" required>
+                <label for="sobrenome" id="labelSobrenome">Sobrenome</label>
+                <input type="sobrenome" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
 
-                <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" required>
+                <label for="email" id="labelEmail">Email</label>
+                <input type="email" name="email" id="email" placeholder="email@email.com" required>
 
-                <label for="password">Senha</label>
-                <input type="password" name="senha" id="senha" required>
+                <label for="password" id="labelSenha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Senha" required>
 
                 <div class="button2">
-                    <button class="createbtn"> Criar cadastro </button>
-                    
+                    <span class="spanBotao" id="spanBotao"></span>
+                    <button  class="createbtn" id="botao"> Criar cadastro </button>                    
                 </div>
+
                 <div>
                     <a>Já tem cadasto?</a>
                     <a class="entrar" href="/users/login">Entrar</a>
                 </div>
 
             </form>
-                        
+
         </div>
+
     </section>
     <!-- <%- include('../partials/footer.ejs') %> -->
 </body>
