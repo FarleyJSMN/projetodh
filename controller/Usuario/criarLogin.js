@@ -7,14 +7,18 @@ const telaLogin = async (req, res) => {
 
 const criarLogin = async (req, res) => {
     const { email, senha } = req.body
-    const criandoLogin = await Usuario.findOne({ where: { email: email } })
+    const buscarEmail = await Usuario.findOne({ where: { email: email } })
 
-    if (!criandoLogin) {
+    if (!buscarEmail) {
         res.render('usuario/login-form')
     } else {
-        const senhaCriptada = await bcrypt.compare(senha, criandoLogin.senha)
+        const senhaCriptada = await bcrypt.compare(senha, buscarEmail.senha)
 
-        if (senhaCriptada && email == criandoLogin.email) {
+        if(!senhaCriptada){
+        res.render('usuario/login-form')
+        }
+
+        if (senhaCriptada && email == buscarEmail.email) {
             req.session.user = email           
             res.redirect('/index')           
         }
