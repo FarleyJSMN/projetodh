@@ -11,6 +11,7 @@ const usersRouter = require('./routes/usersRouter');
 const bicicletaRouter = require('./routes/Bicicleta/bicicletaRouter');
 const pecasRouter = require('./routes/Peca/pecasRouter');
 const acessoriosRouter = require('./routes/Acessorio/acessoriosRouter');
+const carrinhoRouter = require('./routes/Carrinho/carrinhoRouter');
 // const cadastroRouter = require('./routes/Usuario/cadastroRouter');
 // const loginRouter = require('./routes/Usuario/loginRouter');
 
@@ -33,6 +34,7 @@ app.use('/users', usersRouter);
 app.use('/bicicletas', bicicletaRouter);
 app.use('/pecas', pecasRouter);
 app.use('/acessorios', acessoriosRouter);
+app.use('/carrinho', carrinhoRouter);
 // app.use('/usuario', cadastroRouter);
 // app.use('/usuario', loginRouter);
 
