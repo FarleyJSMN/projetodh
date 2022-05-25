@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/css-pg-carrinho.css">
+    <link rel="stylesheet" href="stylesheets/css-header.css">
+    <link rel="stylesheet" href="stylesheets/css-footer.css">
+    <title>carrinho</title>
+</head>
+<%- include("card-login-form"); %> 
+<body>
+    <%- include('./partials/header') %>
+
+    <!-- <script>
+        function pagar() {
+            const teste = document.getElementById('bike')
+            fetch('http://localhost:3000/pagamento', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({bike: teste})
+            }).then(res => {
+            console.log("Request complete! response:", res);
+            });
+        } -->
+    <!-- </script> -->
+    <main>
+        <section>
+            <ul class="lista" style="list-style-type:none;">
+                <li class="bikes">Bike</li>
+                    <ul>
+                        <li>Bike: <%= bike.nome%></li>
+                    </ul> 
+                        <li class="descricao">Acompanhamento</li>
+                    <ul>
+                        <li>Acompanhamento: <%= bike.descricao%> </li>
+                    </ul>
+                <li class="preco">Preço</li>
+                    <ul>
+                        <li>Preço: <%= bike.preco%> </li>
+                    </ul>
+            </ul>
+        </section>
+        
+        <section id="botao">
+            <a href="/views/pagamento.ejs"><button class="pagamento">ir para o pagamento</button></a>
+            <ul class = "alterar">
+                <a href="/views/acessorios.ejs"><li class = "alterar1">Alterar pedido</li></a>
+            </ul>
+            
+            <!-- <button class="pagamento" type="button">Ir para Pagamento</button> -->
+        </section>
+    </main>
+    <%- include('./partials/footer.ejs') %> 
+
+</body>
+</html>
+
+
+ <!-- ADD CARD LOGIN & REGISTRO -->

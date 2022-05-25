@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikes</title>
+    <link rel="stylesheet" href="stylesheets/css-pg-pagamento.css">
+    <link rel="stylesheet" href="stylesheets/css-header.css">
+    <link rel="stylesheet" href="stylesheets/css-footer.css">
+</head>
+<%- include("card-login-e-registro"); %> 
+<body>
+
+    <%- include('./partials/header') %>
+        
+    <main>
+        <section class="base">
+            <div class="cinza">
+                <img src="images/localizacao.png" alt="" id="balao">
+                <p>Confirme seu endereço:</p>
+            </div>
+            <div class="branco" id="endereco">
+                <div id="rua">
+                    <label for="">Rua:</label>
+                    <input type="text">
+                </div>            
+            </div>
+            <div class="cinza">
+                <img src="images/pg-pagamento/dinheiro.png" alt="" id="dinheiro">
+                <p>Pague na entrega:</p>
+            </div>
+            <div class="branco" id="pagamento">
+                <input type="radio" id="Dinheiro" name="pagamento">
+                <label for="horns">Dinheiro</label>
+                <input type="radio" id="maquinadecartao" name="pagamento">
+                <label for="horns">Máquina de cartão</label>
+            </div> 
+           
+            
+            </div>
+            <div class="cinza">
+                <img src="images/pg-pagamento/pedido.png" alt="" id="pedido">
+               <p>Pedido:</p> 
+            </div>
+            <div class="branco" id="entrega">
+                <!-- <p>Entrega</p>
+                <span></span> -->
+            </div>
+            <div class="branco" id="subtotal">
+                <!-- <p>Subtotal</p>
+                <span></span> -->
+            </div>
+            <hr>
+            <div class="branco" id="total">
+                <!-- <p>TOTAL</p> -->
+            </div>
+        </section>
+        <span> <li>preço: <%= bike.preco%> </li></span>
+
+        <section class="botao">
+            <div>
+                <input type="button" value="Enviar Pedido">
+            </div>
+        </section>
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+    
+</body>
+</html>
+ 
+ <!-- ADD CARD LOGIN & REGISTRO -->
