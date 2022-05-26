@@ -21,11 +21,12 @@
             </div>
 
             <form class="form-login" action="/users/login" method="post">
+                <span><%= message %></span>
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" placeholder="email@email.com" required>
 
                 <label for="password">Senha</label>
-                <input type="password" name="senha" id="senha" required>
+                <input type="password" name="senha" id="senha" placeholder="senha" required>
 
                 <!-- <div class="lembrete">
                     <ul>
