@@ -1,5 +1,5 @@
-var express = require('express')
-var router = express.Router()
+const express = require('express')
+const router = express.Router()
 const usuario = require('../controller/Usuario/criarUsuario')
 const cadastro = require('../controller/Usuario/criarUsuario')
 const login = require('../controller/Usuario/criarLogin')
@@ -12,6 +12,6 @@ router.post('/cadastro', usuario.criarUsuario)
 router.get('/login', login.telaLogin)
 router.post('/login', login.criarLogin)
 
-router.get('/perfil', validaUsuario, perfil.telaPerfil)
+router.get('/perfil', validaUsuario, perfil)
 
 module.exports = router
