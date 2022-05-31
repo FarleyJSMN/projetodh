@@ -13,5 +13,6 @@ router.get('/login', login.telaLogin)
 router.post('/login', login.criarLogin)
 
 router.get('/perfil', validaUsuario, perfil.exibePerfil)
+router.put('/perfil', perfil.editaPerfil)
 
 module.exports = router

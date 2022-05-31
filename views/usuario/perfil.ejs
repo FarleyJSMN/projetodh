@@ -18,7 +18,7 @@
           <span class="conta"> Perfil do Usuario </span>
         </div>
 
-        <form class="form-criarConta" action="/users/perfil" method="put">
+        <form class="form-criarConta" action="/users/perfil" method="PUT">
           <p>Bem-vindo <%= message.nome + ' ' + message.sobrenome %></p>
           <label for="name" id="labelNome">Nome</label>
           <input
@@ -50,12 +50,11 @@
 
           <div class="button2">
             <span class="spanBotao" id="spanBotao"></span>
-            <button class="createbtn" type="submit" id="botao">Salvar alterações</button>
+            <button class="createbtn" type="submit" id="botao"  >Salvar alterações</button>
           </div>
         </form>
       </div>
     </section>
     <!-- <%- include('../partials/footer.ejs') %> -->
   </body>
-  <script src="/javascripts/editarPerfil.js" ></script>
 </html>
