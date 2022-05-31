@@ -18,14 +18,14 @@
           <span class="conta"> Perfil do Usuario </span>
         </div>
 
-        <form class="form-criarConta" action="/users/cadastro" method="post">
+        <form class="form-criarConta" action="/users/perfil" method="put">
           <p>Bem-vindo <%= message.nome + ' ' + message.sobrenome %></p>
           <label for="name" id="labelNome">Nome</label>
           <input
             type="name"
             name="nome"
             id="nome"
-            placeholder="<%= message.nome %>"
+            value="<%= message.nome %>"
             required
           />
 
@@ -34,7 +34,7 @@
             type="sobrenome"
             name="sobrenome"
             id="sobrenome"
-            placeholder="<%= message.sobrenome %>"
+            value="<%= message.sobrenome %>"
             required
           />
 
@@ -43,26 +43,19 @@
             type="email"
             name="email"
             id="email"
-            placeholder="<%= message.email %>"
+            value="<%= message.email %>"
             required
           />
 
-          <label for="password" id="labelSenha">Senha</label>
-          <input
-            type="password"
-            name="senha"
-            id="senha"
-            placeholder="Senha"
-            required
-          />
 
           <div class="button2">
             <span class="spanBotao" id="spanBotao"></span>
-            <button class="createbtn" id="botao">Editar perfil</button>
+            <button class="createbtn" type="submit" id="botao">Salvar alterações</button>
           </div>
         </form>
       </div>
     </section>
     <!-- <%- include('../partials/footer.ejs') %> -->
   </body>
+  <script src="/javascripts/editarPerfil.js" ></script>
 </html>

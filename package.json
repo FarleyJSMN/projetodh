@@ -19,5 +19,19 @@
     "morgan": "~1.9.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.19.0"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarleyJSMN/projetodh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarleyJSMN/projetodh/issues"
+  },
+  "homepage": "https://github.com/FarleyJSMN/projetodh#readme",
+  "description": ""
 }
