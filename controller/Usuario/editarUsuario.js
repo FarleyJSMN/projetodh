@@ -1,5 +1,5 @@
 const { sequelize, Usuario } = require("../../models/index");
-const modelOfertas = require('../../model/ofertas.json')
+const bcrypt = require("bcrypt");
 
 const buscarDados = { 
 
@@ -45,6 +45,29 @@ const buscarDados = {
     })
     delete req.session.user
     res.redirect('/index')
+  },
+
+  exibeAlteraSenha: (req,res) => {
+    res.render('usuario/mudarSenha', { message: ''})
+  },
+
+  alteraSenha: async (req, res) => {
+    const {senha} = req.body
+    if(!senha){
+      res.render('usuario/mudarSenha', { message: 'Você deve colocar uma senha'})
+    } else {
+      if(senha.length < 8){
+        res.render('usuario/mudarSenha', { message: 'A senha deve ter no mínimo 8 caracteres'})
+      } else {
+        const hash = await bcrypt.hash(senha, 10);
+        await Usuario.update(
+          {senha: hash},
+          {where: {email: req.session.user}}
+        )
+        delete req.session.user
+        res.redirect('/users/login')
+      }
+    }
   }
 };
 
