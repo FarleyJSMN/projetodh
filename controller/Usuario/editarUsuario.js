@@ -9,29 +9,40 @@ const buscarDados = {
     raw: true,
     where: { email: sessao },
   });
-  res.render("usuario/perfil", { message: buscaDaSessao });
+  res.render("usuario/perfil", { message: buscaDaSessao, alert: '' });
   },
 
   editaPerfil: async (req,res) => {
     let {nome, sobrenome, email} = req.body
     let sessao = req.session.user;
-    await Usuario.update(
-      {
-          nome: nome,
-          sobrenome: sobrenome,
-          email: email
-      },
-      {
-          where: {email: sessao}
-      }
-    )
-    req.session.user = email
-    sessao = email
-    const buscaDaSessao = await Usuario.findOne({
-      raw: true,
-      where: { email: sessao },
-    });
-    res.render("usuario/perfil", { message: buscaDaSessao });
+    const emailRepetido = await Usuario.findOne({
+      where: {email: email}
+    })
+    if (emailRepetido) {
+      const buscaDaSessao = await Usuario.findOne({
+        raw: true,
+        where: { email: sessao },
+      });
+      res.render("usuario/perfil", { message: buscaDaSessao, alert: 'Email já cadastrado no sistema' })
+    } else {
+      await Usuario.update(
+        {
+            nome: nome,
+            sobrenome: sobrenome,
+            email: email
+        },
+        {
+            where: {email: sessao}
+        }
+      )
+      req.session.user = email
+      sessao = email
+      const buscaDaSessao = await Usuario.findOne({
+        raw: true,
+        where: { email: sessao },
+      });
+      res.render("usuario/perfil", { message: buscaDaSessao, alert: '' });
+    }
   },
 
   exibeDeletaPerfil: (req,res) => {
