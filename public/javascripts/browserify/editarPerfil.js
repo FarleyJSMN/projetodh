@@ -1,4 +1,4 @@
-var {Usuario} = require(["../../models/index"])
+var {Usuario} = require("../../../models/index.js")
 
 const emailAtual = document.getElementById("email")
 const botao = document.getElementById("botao")
