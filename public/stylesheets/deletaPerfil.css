@@ -1,0 +1,17 @@
+.createbtn {
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 20px;     
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.deleta{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+}

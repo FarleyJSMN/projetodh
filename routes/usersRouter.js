@@ -18,4 +18,7 @@ router.post('/login', login.criarLogin)
 router.get('/perfil', validaUsuario, perfil.exibePerfil)
 router.put('/perfil', perfil.editaPerfil)
 
+router.get('/perfil/delete', perfil.exibeDeletaPerfil)
+router.delete('/perfil/delete', perfil.deletaPerfil)
+
 module.exports = router
