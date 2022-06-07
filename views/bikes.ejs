@@ -6,22 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BIKE SHOP</title>
     <link href="/stylesheets/bikes.css" rel="stylesheet" />
+    <!-- <script src="/javascripts/funcaoCarrinho.js" defer></script> -->
   </head>
 
   <body>
     <%- include('./partials/header.ejs') %>
-
     <section class="conteiner1">
       <% for (let bike of listarBicicletas) { %>
       <div>
-        <img src="<%= bike.img %>" alt="" width="500px">
-        <p>
-          <%= bike.nome %> - <%= bike.preco %> - <%= bike.descricao %>
-          <button onclick(<% bike.id %>)>Comprar</button>
-        </p>
+        <img src="<%= bike.img %>" alt="" width="500px" />
+        <p><%= bike.nome %> <%= bike.preco %></p>
+        <button id="idButton" onclick="add('<%= JSON.stringify(bike)%>')">
+          Comprar
+        </button>
       </div>
       <% } %>
     </section>
+    <script>
+      function add(x) {
+        console.log(x)
+        if (localStorage.getItem("produto")) {
+          let listaprodutos = JSON.parse(localStorage.getItem("produto"));
+          listaprodutos.push(x);
+
+          localStorage.setItem("produto", JSON.stringify(listaprodutos));
+        } else {
+          let listaprodutos = [x];
+          localStorage.setItem("produto", JSON.stringify(listaprodutos));
+        }
+      }
+    </script>
     <%- include('./partials/footer.ejs') %>
   </body>
 </html>
