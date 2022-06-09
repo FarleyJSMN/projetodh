@@ -21,26 +21,29 @@
             </div>
 
             <form class="form-login" action="/users/login" method="post">
+                <span><%= message %></span>
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" placeholder="email@email.com" required>
 
                 <label for="password">Senha</label>
-                <input type="password" name="senha" id="senha" required>
+                <input type="password" name="senha" id="senha" placeholder="senha" required>
 
-                <div class="lembrete">
+                <!-- <div class="lembrete">
                     <ul>
-                        <li> Lembrar-me <input type="checkbox" name="check" id="check" required></li>
+                        <li> Lembrar-me <input type="checkbox" name="check" id="check"></li>
                         <li><a href=""> Lembrar senha? </a></li>
                     </ul>
-                </div>
+                </div> -->
 
                 <div class="button">
                     <button class="enterbtn"> Entrar </button>
                     <button class="createbtn"><a href="/users/cadastro"> Cadastre-se </a></button>
                 </div>
+
             </form>
+            
         </div>
-        <%- include('../partials/footer.ejs') %>
+        <!-- <%- include('../partials/footer.ejs') %> -->
 </body>
 
 </html>

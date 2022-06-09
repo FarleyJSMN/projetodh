@@ -22,6 +22,7 @@ body {
     background-color: #BD4714;
     flex-wrap: wrap;
 }
+
 .menu ul{
     display: flex;   
 }
@@ -34,6 +35,7 @@ body {
     text-align: center;
     margin-left: 10px;
 }
+
 .menu a:hover{
     color: #000000;
     transition: 0.5s;
@@ -54,18 +56,63 @@ body {
     align-items: center;
 }
 
-.status a img {
-    display: inline-block;
-    padding: 10px;
+/*Classe temporariamente inativa*/
+/* .status {
+    padding-left: 0px;
 }
 
-/* Barra de busca */
-.buscar {
+.status a img {
+    display: inline-block;
+} */
+
+.dropdown {
+    margin-right: 60px;
+}
+
+.dropdown ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+}
+
+.dropdown ul a {
+    padding-right: 25px;
+}
+
+.dropdown ul li {
+    display: block;
+    position: relative;
+}
+
+.dropdown ul li a {
+    display: block;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    padding: 0px;
+    text-align-last: center;
+    font-size: 20px;
+}
+
+.dropdown ul li a:hover {
+    background-color: #BD4714;    
+}
+
+/*Sub menu*/
+.dropdown ul ul {
+    display: none;
+    position: absolute;
+}
+
+.dropdown ul li:hover ul {
+    display: block;    
+}
+
+ /* Barra de busca temporariamente inativa*/
+/* .buscar {
     width: 25rem;
     position: relative;
     background: #fff ;
-    border-radius: .7rem;
-    
+    border-radius: .7rem;    
 }
 
 button, input {
@@ -97,8 +144,7 @@ input[type="search"] {
     transition: all .3s cubic-bezier(0, 0, 0.43, 1.49);
     transition-property: width, border-radius;
     z-index: 1;
-    position: relative;
-    
+    position: relative;    
 }
 
 label {
@@ -114,10 +160,9 @@ input:not(:placeholder-shown) {
     border-radius: .7rem 0 0 .7rem;
     width: calc(100% - 5rem);
     display: block;  
-}
+} */
 
 /* Body */
-
 .conteiner1{
     display: flex;
     flex-direction:row;
@@ -165,8 +210,8 @@ p{
     align-items: center;
     background-color: #BD4714;
     flex-wrap: wrap;
-    /* margin-top: 5px; */
 }
+
 .menufooter{
     display: flex;   
 }

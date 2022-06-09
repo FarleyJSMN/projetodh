@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIKE SHOP</title>
+    <link href="/stylesheets/perfil.css" rel="stylesheet" />
+    <link href="/stylesheets/deletaPerfil.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <%- include('../partials/header.ejs') %>
+    <section class="deleta">
+        <form action="/users/perfil/delete" method="POST">
+            <h2>Deseja mesmo deletar seu perfil?</h2>
+            <div class="btn">
+                <button class="createbtn" type="submit">Sim</button>
+                <button class="createbtn"><a href="/users/perfil">Não</a></button>
+            </div>
+            <input type="hidden" name="_method" value="DELETE">
+        </form>
+    </section>
+    
+  </body>
+  
+</html>

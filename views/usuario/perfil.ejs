@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIKE SHOP</title>
+    <link href="/stylesheets/perfil.css" rel="stylesheet" />
+    <!-- <script src="/javascripts/validaFormulario.js" defer></script> -->
+  </head>
+
+  <body>
+    <%- include('../partials/header.ejs') %>
+
+    <section>
+      <div class="container-form-cadastro">
+        <div class="container-cadastro">
+          <span class="conta"> Perfil do Usuario </span>
+        </div>
+
+        <form class="form-criarConta" action="/users/perfil" method="POST" >
+          
+          <p>Bem-vindo <%= message.nome + ' ' + message.sobrenome %></p>
+          <label for="name" id="labelNome">Nome</label>
+          <input
+            type="name"
+            name="nome"
+            id="nome"
+            value="<%= message.nome %>"
+            required
+          />
+
+          <label for="sobrenome" id="labelSobrenome">Sobrenome</label>
+          <input
+            type="sobrenome"
+            name="sobrenome"
+            id="sobrenome"
+            value="<%= message.sobrenome %>"
+            required
+          />
+
+          <label for="email" id="labelEmail">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            value="<%= message.email %>"
+            required
+          />
+
+
+          <div class="button2">
+            <span class="spanBotao" id="spanBotao"></span>
+            <button class="createbtn" type="submit" id="botao"  >Salvar alterações</button>
+            <button class="createbtn"><a href="/users/perfil/senha" >Alterar senha</a></button>
+            <button class="createbtn"><a href="/users/perfil/delete" >Deletar perfil</a></button>
+            <span><%= alert %></span>
+          </div>
+          <input type="hidden" name="_method" value="PUT">
+        </form>
+      </div>
+    </section>
+    <%- include('../partials/footer.ejs') %>
+  </body>
+  
+</html>

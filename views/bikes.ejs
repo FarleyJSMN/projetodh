@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BIKE SHOP</title>
-    <link href="/stylesheets/bikes.css" rel="stylesheet">
-</head>
+    <link href="/stylesheets/bikes.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <%- include('./partials/header.ejs') %>
 
-        <section class="conteiner1">
-
-            <% for (let bike of listaBikes) { %>
-                <div>
-                    <img src=<%=bike.img %> alt="" width="500px">
-                    <p>
-                        <%= bike.nome %> - <%= bike.preco %> - <%= bike.descricao %>
-                    </p>
-                </div>
-                <% } %>
-
-        </section>
-        <%- include('./partials/footer.ejs') %>
-</body>
-
+    <section class="conteiner1">
+      <% for (let bike of listarBicicletas) { %>
+      <div>
+        <img src="<%= bike.img %>" alt="" width="500px">
+        <p>
+          <%= bike.nome %> - <%= bike.preco %> - <%= bike.descricao %>
+          <button onclick(<% bike.id %>)>Comprar</button>
+        </p>
+      </div>
+      <% } %>
+    </section>
+    <%- include('./partials/footer.ejs') %>
+  </body>
 </html>
