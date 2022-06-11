@@ -44,6 +44,19 @@ const buscarDados = {
         });
         res.render("usuario/perfil", { message: buscaDaSessao, alert: 'Email já cadastrado no sistema' })
       }
+    } else {
+      await Usuario.update(
+        {
+            nome: nome,
+            sobrenome: sobrenome,
+            email: email
+        },
+        {
+            where: {email: sessao}
+        }
+      )
+      delete req.session.user
+        res.redirect('/users/login')
     }
   },
 
