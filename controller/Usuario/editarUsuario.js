@@ -19,29 +19,31 @@ const buscarDados = {
       where: {email: email}
     })
     if (emailRepetido) {
-      const buscaDaSessao = await Usuario.findOne({
-        raw: true,
-        where: { email: sessao },
-      });
-      res.render("usuario/perfil", { message: buscaDaSessao, alert: 'Email já cadastrado no sistema' })
-    } else {
-      await Usuario.update(
-        {
-            nome: nome,
-            sobrenome: sobrenome,
-            email: email
-        },
-        {
-            where: {email: sessao}
-        }
-      )
-      req.session.user = email
-      sessao = email
-      const buscaDaSessao = await Usuario.findOne({
-        raw: true,
-        where: { email: sessao },
-      });
-      res.render("usuario/perfil", { message: buscaDaSessao, alert: '' });
+      if(email == sessao){
+        await Usuario.update(
+          {
+              nome: nome,
+              sobrenome: sobrenome,
+              email: email
+          },
+          {
+              where: {email: sessao}
+          }
+        )
+        req.session.user = email
+        sessao = email
+        const buscaDaSessao = await Usuario.findOne({
+          raw: true,
+          where: { email: sessao },
+        });
+        res.render("usuario/perfil", { message: buscaDaSessao, alert: '' });
+      } else {
+        const buscaDaSessao = await Usuario.findOne({
+          raw: true,
+          where: { email: sessao },
+        });
+        res.render("usuario/perfil", { message: buscaDaSessao, alert: 'Email já cadastrado no sistema' })
+      }
     }
   },
 
