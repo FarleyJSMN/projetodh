@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/stylesheets/carrinho.css" />
-    <!-- <script src="/javascripts/carrinho.js" defer></script> -->
+    <script src="/javascripts/logicaCarrinho.js" defer></script>
   </head>
 
   <body>
@@ -21,62 +21,30 @@
     </header>
     <main>
       <div class="title">
-        <!-- <h2>Produtos</h2> -->
-        <!-- <span>Lista de produto</span> -->
+        <h2>Produtos</h2>
+        <span>Lista de produto</span>
       </div>
-      <div class="card">
-        <!-- <div class="lineInput">
-                <label>Produto</label>
-                <input type="text" id="produto" placeholder="Nome do produto">
-            </div>
-            <div class="lineInput">
-                <label>Preço</label>
-                <input type="text" id="preco" placeholder="Preço do produto">
-            </div> -->
         <div class="content">
           <table border="1">
             <thead>
               <span id="idSpan"></span>
 
-              <th class="center">ID</th>
               <th class="center">Produto</th>
-              <th class="center">Valor</th>
-              <th class="center">Ações</th>
-              <p id="viewBike"></p>
-              <!-- <input type="button" id="botao" value="Exibir o valor da session storage"> -->
-
+              <th class="center">Preço</th>
             </thead>
-            <tbody id="tbody">
-            </tbody>
+            <tbody id="tbody"></tbody>
           </table>
         </div>
         <div id="viewSessionSotorage">
-          <p ></p>
-          <!-- <input type="button" id="inputButton2" value="Exibir o valor da session storage"> -->
+        </div>
       </div>
+      <div class="conteinerTotal">
+        <div class="checkout">
+      <button onclick="salvar()">Finalizar</button>
+      <button onclick="cancelar()">Cancelar</button>
+        </div>
+      <p class="classTotal" id="total"></p>
       </div>
-      <!-- <button onclick="produto.salvar()">Salvar</button>
-        <button onclick="produto.cancelar()">Cancelar</button> -->
     </main>
-    <script>
-      /* var btn2 = document.querySelector("#inputButton2");
-
-      btn2.addEventListener("click", function () {
-          var paragrafo = document.querySelector("#viewSessionSotorage");
-          let resultadoBusca = JSON.parse(localStorage.getItem("produto"));
-          
-
-          for (let index = 0; index < resultadoBusca.length; index++) {
-            let dados =  JSON.parse(resultadoBusca[index])
-            paragrafo.textContent = dados.nome           
-          }
-      }) */
-      var carrinho = document.querySelector("#viewSessionSotorage");
-      let resultadoBusca = JSON.parse(localStorage.getItem("produto"));
-      for (let index = 0; index < resultadoBusca.length; index++) {
-            let dados =  JSON.parse(resultadoBusca[index])
-            carrinho.innerHTML += "<p>"+dados.nome+"</p><p>"+dados.preco+"</p>"     
-      }
-  </script>
   </body>
 </html>
