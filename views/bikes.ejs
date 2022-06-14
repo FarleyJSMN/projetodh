@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BIKE SHOP</title>
     <link href="/stylesheets/bikes.css" rel="stylesheet" />
-    <!-- <script src="/javascripts/funcaoCarrinho.js" defer></script> -->
+    <script src="/javascripts/logicaCarrinho.js" defer></script>
   </head>
 
   <body>
@@ -22,20 +22,6 @@
       </div>
       <% } %>
     </section>
-    <script>
-      function add(x) {
-        console.log(x)
-        if (localStorage.getItem("produto")) {
-          let listaprodutos = JSON.parse(localStorage.getItem("produto"));
-          listaprodutos.push(x);
-
-          localStorage.setItem("produto", JSON.stringify(listaprodutos));
-        } else {
-          let listaprodutos = [x];
-          localStorage.setItem("produto", JSON.stringify(listaprodutos));
-        }
-      }
-    </script>
     <%- include('./partials/footer.ejs') %>
   </body>
 </html>
