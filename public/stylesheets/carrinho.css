@@ -11,6 +11,20 @@ body{
     background-color: rgb(228, 214, 214);
 }
 
+.linhaCarrinho {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.nomeProduto {
+    padding: 10px;
+}
+
+.precoProduto{
+    padding: 10px;
+}
+
 header{
     background-color: #BD4714;
     padding: 10px;
@@ -61,6 +75,27 @@ button{
 button:hover{
     background-color: #BD4714;
 }
+
+.classTotal{
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: #0c0c0c;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+
+.classTotal:hover{
+    background-color: #BD4714;
+}
+
+.conteinerTotal{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .content{
     margin-top: 15px;
