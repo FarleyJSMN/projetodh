@@ -15,7 +15,7 @@
       <% for (let bike of listarBicicletas) { %>
       <div>
         <img src="<%= bike.img %>" alt="" width="500px" />
-        <p><%= bike.nome %> <%= bike.preco %></p>
+        <p><%= bike.nome %> R$<%= bike.preco %></p>
         <button id="idButton" onclick="add('<%= JSON.stringify(bike)%>')">
           Comprar
         </button>
