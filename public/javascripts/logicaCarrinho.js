@@ -37,3 +37,10 @@ function cancelar() {
   window.location = "http://localhost:3000/index";
   return;
 }
+
+function finalizar() {
+  localStorage.clear();
+  document.location.reload(true);
+  window.location = "http://localhost:3000/index";
+  return;
+}
