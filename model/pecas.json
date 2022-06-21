@@ -1,20 +1,20 @@
 [
     {
-        "id": 1, "nome": "Canote de Carbono S-Works - Venge", "preco": 1.232, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/CanotedeCarbono-S-Works-Venge/28119-330_CMPNT_SW-VENGE-CARBON-POST-0-OFFSET_HERO.webp"
+        "id": 1, "nome": "Canote de Carbono S-Works - Venge", "preco": 1230.00, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/CanotedeCarbono-S-Works-Venge/28119-330_CMPNT_SW-VENGE-CARBON-POST-0-OFFSET_HERO.webp"
     },
     {
-        "id": 2, "nome": "Canote Pro 2 MTB Alumínio", "preco": 2.742, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/Canote-Pro-2-MTB-Alumínio/2812-3049_CMPNT_PRO-II-MTN-ALLOY-POST_GLOSS-MATTE-BLK.webp"
+        "id": 2, "nome": "Canote Pro 2 MTB Alumínio", "preco": 2742.00, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/Canote-Pro-2-MTB-Alumínio/2812-3049_CMPNT_PRO-II-MTN-ALLOY-POST_GLOSS-MATTE-BLK.webp"
     },
     {
-        "id": 3, "nome": "Canote Terra", "preco": 2.799, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/CanoteTerra/28121-380_CMPNT_ROVAL-TERRA-CARBON-POST-330MM-20-OFFSET_HERO.webp"
+        "id": 3, "nome": "Canote Terra", "preco": 2799.00, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/CanoteTerra/28121-380_CMPNT_ROVAL-TERRA-CARBON-POST-330MM-20-OFFSET_HERO.webp"
     },
     {
-        "id": 4, "nome": "Garfo 26 MTB Redondo", "preco": 1.072, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/garfos/GARFO-26-MTB-REDONDO/GARFO-26-REDONDO.jpg"
+        "id": 4, "nome": "Garfo 26 MTB Redondo", "preco": 1072.00, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/garfos/GARFO-26-MTB-REDONDO/GARFO-26-REDONDO.jpg"
     },
     {
         "id": 5, "nome": "Garfo Cross 20''", "preco": 699.00, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/garfos/GARFO-CROSS-20”/garfo_cross_20.jpg"
     },
     {
-        "id": 7, "nome": "Guidão Cockpit Alpinist SL", "preco": 1.599, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/guidoes/Cockpit-Alpinist-SL/21021-032_CMPNT_ROVAL-ALPINIST-RD-COCKPIT-CARB-BLK-318X400-80MM_HERO-1.webp"
+        "id": 7, "nome": "Guidão Cockpit Alpinist SL", "preco": 1599.00, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/guidoes/Cockpit-Alpinist-SL/21021-032_CMPNT_ROVAL-ALPINIST-RD-COCKPIT-CARB-BLK-318X400-80MM_HERO-1.webp"
     }
 ]
