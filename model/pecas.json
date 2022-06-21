@@ -1,62 +1,20 @@
 [
     {
-        "id": 1, "nome": "Canote de Carbono S-Works - Venge", "preco": "R$ 2.232,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/CanotedeCarbono-S-Works-Venge/28119-330_CMPNT_SW-VENGE-CARBON-POST-0-OFFSET_HERO.webp"
+        "id": 1, "nome": "Canote de Carbono S-Works - Venge", "preco": 1.232, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/CanotedeCarbono-S-Works-Venge/28119-330_CMPNT_SW-VENGE-CARBON-POST-0-OFFSET_HERO.webp"
     },
     {
-        "id": 2, "nome": "Canote Pro 2 MTB Alumínio", "preco": "R$ 1.752,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/Canote-Pro-2-MTB-Alumínio/2812-3049_CMPNT_PRO-II-MTN-ALLOY-POST_GLOSS-MATTE-BLK.webp"
+        "id": 2, "nome": "Canote Pro 2 MTB Alumínio", "preco": 2.742, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/Canote-Pro-2-MTB-Alumínio/2812-3049_CMPNT_PRO-II-MTN-ALLOY-POST_GLOSS-MATTE-BLK.webp"
     },
     {
-        "id": 3, "nome": "Canote Terra", "preco": "R$ 1.791,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/CanoteTerra/28121-380_CMPNT_ROVAL-TERRA-CARBON-POST-330MM-20-OFFSET_HERO.webp"
+        "id": 3, "nome": "Canote Terra", "preco": 2.799, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/canotes/CanoteTerra/28121-380_CMPNT_ROVAL-TERRA-CARBON-POST-330MM-20-OFFSET_HERO.webp"
     },
     {
-        "id": 4, "nome": "Garfo 26 MTB Redondo", "preco": "R$ 2.072,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/garfos/GARFO-26-MTB-REDONDO/GARFO-26-REDONDO.jpg"
+        "id": 4, "nome": "Garfo 26 MTB Redondo", "preco": 1.072, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/garfos/GARFO-26-MTB-REDONDO/GARFO-26-REDONDO.jpg"
     },
     {
-        "id": 5, "nome": "Garfo Cross 20''", "preco": "R$ 699,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/garfos/GARFO-CROSS-20”/garfo_cross_20.jpg"
+        "id": 5, "nome": "Garfo Cross 20''", "preco": 699.00, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/garfos/GARFO-CROSS-20”/garfo_cross_20.jpg"
     },
     {
-        "id": 7, "nome": "Guidão Cockpit Alpinist SL", "preco": "R$ 1.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/guidoes/Cockpit-Alpinist-SL/21021-032_CMPNT_ROVAL-ALPINIST-RD-COCKPIT-CARB-BLK-318X400-80MM_HERO-1.webp"
-    },
-    {
-        "id": 8, "nome": "Guidão Alumínio Mini Rise", "preco": "R$ 5.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/guidoes/Guidão-Alumínio-Mini-Rise/21118-711_CMPNT_ALLOY-MINI-RISE-BAR_CHAR_HERO.webp"
-    },
-    {
-        "id": 9, "nome": "Guidão Hover Expert Alumínio", "preco": "R$ 6.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/guidoes/Guidão-Hover-Expert-Alumínio-Altura-15mm/21017-20_CMPNT_HOVER-EXPERT-ALLOY-15-RD-BAR_SAND-BLAST-ANO-BLK.webp"
-    },    
-    {
-        "id": 10, "nome": "Mesa Comp Multi", "preco": "R$ 2.232,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/mesas/Mesa-Comp-Multi/20015-102_CMPNT_COMP-MULTI-STEM_BLK-CHAR_HERO.webp"
-    },    
-    {
-        "id": 11, "nome": "Mesa SL S-Works com Plugue Extensor", "preco": "R$ 2.232,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/mesas/Mesa-SL-S-Works-com-Plugue-Extensor/20017-150_CMPNT_SW-SL-STEM-W-EXPANDER-PLUG_POLISH-BLK_HERO.webp"
-    },
-    {
-        "id": 12, "nome": "Mesa Tarmac S-Works", "preco": "R$ 1.752,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/mesas/Mesa-Tarmac-S-Works/20021-111_CMPNT_SW-TARMAC-STEM-BLK-318X110-12D_DETAIL-1.webp"
-    },
-    {
-        "id": 13, "nome": "Pneu All Condition Armadillo Elite", "preco": "R$ 1.791,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/pneus-e-camaras/Pneu-All-Condition-Armadillo-Elite/00014-4103_TIRE_ALL-CONDITION-ARM-ELITE.webp"
-    },
-    {
-        "id": 14, "nome": "Pneu Ground Control Control 2Bliss Ready T5", "preco": "R$ 2.072,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/pneus-e-camaras/Pneu-Ground-Control-Control-2Bliss-Ready-T5/00122-507_TIRE_GROUND-CONTROL-CONTROL-2BR-T5-TIRE-29X235_FRONT.webp"
-    },
-    {
-        "id": 15, "nome": "Pneu Specialized Fast Trak Sport", "preco": "R$ 699,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/pneus-e-camaras/Pneu-Specialized-Fast-Trak-Sport/001E-402_TIRE_FAST-TRAK-SPORT_BLK_FRONT.webp"
-    },
-    {
-        "id": 19, "nome": "Roda Roval CLX 50 – Traseira", "preco": "R$ 6.590,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/rodas/Roda-Roval-CLX-50–Traseira/30017-8202_WHL_CLX-50-REAR_SATIN-CARBON-GLOSS-BLK.webp"
-    },    
-    {
-        "id": 20, "nome": "Roda Roval CLX 64 – Traseira", "preco": "R$ 2.232,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/rodas/Roda-Roval-CLX-64–Traseira/30016-7002_WHL_CLX-64-REAR-SYS_SATIN-CARBON-GLOSS-BLK.webp"
-    },    
-    {
-        "id": 21, "nome": "Rodas Roval SLX 24", "preco": "R$ 2.232,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/rodas/Rodas-Roval-SLX-24/30017-880_WHL_FUSEE-SLX_CHAR-BLK_FRONT-SIDE.webp"
-    },
-    {
-        "id": 22, "nome": "Selim S-Works Romin EVO com Mirror", "preco": "R$ 1.752,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/selins/S-Works-Romin-EVO-com-Mirror/27122-730_SDDL_SW-ROMIN-EVO-MIRROR-SADDLE-BLK-143_HERO.webp"
-    },
-    {
-        "id": 23, "nome": "Selim Bridge Sport", "preco": "R$ 1.791,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/selins/Selim-Bridge-Sport/27120-410_SDDL_BRIDGE-SPORT-SADDLE-BLK-143_HERO.webp"
-    },
-    {
-        "id": 24, "nome": "Selim Specialized Romin EVO Pro", "preco": "R$ 2.072,00", "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/selins/Selim-Specialized-Romin-EVO-Pro/27116-710_SDDL_ROMIN-EVO-PRO_BLK.webp"
+        "id": 7, "nome": "Guidão Cockpit Alpinist SL", "preco": 1.599, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/guidoes/Cockpit-Alpinist-SL/21021-032_CMPNT_ROVAL-ALPINIST-RD-COCKPIT-CARB-BLK-318X400-80MM_HERO-1.webp"
     }
 ]

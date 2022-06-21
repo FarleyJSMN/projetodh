@@ -1,67 +1,25 @@
 [
     
     {
-        "id": 1, "nome": "Cápsula SWAT™ Pequena", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/bolsas/Cápsula-SWAT™-Pequena/41120-060_BAG_SWAT-POD-BLK-SM_HERO.webp"
+        "id": 1, "nome": "Cápsula SWAT™ Pequena", "preco": 599.00, "descricao": "", "img": "/images/img-bikeshop/equipamentos/bolsas/Cápsula-SWAT™-Pequena/41120-060_BAG_SWAT-POD-BLK-SM_HERO.webp"
     },
     {
-        "id": 2, "nome": "Tailwind", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/bolsas/Tailwind/41122-610_BAG_TAILWIND-PANNIER-BLK-RIGHT_BACK.webp"
+        "id": 2, "nome": "Tailwind", "preco": 259.00, "descricao": "", "img": "/images/img-bikeshop/equipamentos/bolsas/Tailwind/41122-610_BAG_TAILWIND-PANNIER-BLK-RIGHT_BACK.webp"
     },
     {
-        "id": 3, "nome": "Wedgie", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/bolsas/Wedgie/41120-030_BAG_WEDGIE-SEAT-BAG-BLK_HERO.webp"
+        "id": 3, "nome": "Wedgie", "preco": 369.00, "descricao": "", "img": "/images/img-bikeshop/equipamentos/bolsas/Wedgie/41120-030_BAG_WEDGIE-SEAT-BAG-BLK_HERO.webp"
     },
     {
-        "id": 4, "nome": "Bomba de Ar Air Tool Flex", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/bombas/Bomba-de-Ar-Air-Tool-Flex/47215-4502_PUMP_AIR-TOOL-FLEX-HOSE-MTB-ROAD_BLK.webp"
+        "id": 4, "nome": "Bomba de Ar Air Tool Flex", "preco": 147.00, "descricao": "", "img": "/images/img-bikeshop/equipamentos/bombas/Bomba-de-Ar-Air-Tool-Flex/47215-4502_PUMP_AIR-TOOL-FLEX-HOSE-MTB-ROAD_BLK.webp"
     },
     {
-        "id": 5, "nome": "Bomba de Chão Air Tool Comp V2", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/bombas/Bomba-de-Chão-Air-Tool-Comp-V2/47220-210_PUMP_AIR-TOOL-COMP-FLR-PUMP-RKTRED_DETAIL1.webp"
+        "id": 5, "nome": "Bomba de Chão Air Tool Comp V2", "preco": 259.00, "descricao": "", "img": "/images/img-bikeshop/equipamentos/bombas/Bomba-de-Chão-Air-Tool-Comp-V2/47220-210_PUMP_AIR-TOOL-COMP-FLR-PUMP-RKTRED_DETAIL1.webp"
     },
     {
-        "id": 6, "nome": "Bomba de Chão Air Tool MTB", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/bombas/Bomba-de-Chão-Air-Tool-MTB/47219-250_PUMP_AIR-TOOL-MTB-FLR-PUMP-GRY_DETAIL-GAUGE.webp"
+        "id": 6, "nome": "Bomba de Chão Air Tool MTB", "preco": 366.00, "descricao": "", "img": "/images/img-bikeshop/equipamentos/bombas/Bomba-de-Chão-Air-Tool-MTB/47219-250_PUMP_AIR-TOOL-MTB-FLR-PUMP-GRY_DETAIL-GAUGE.webp"
     },
     {
-        "id": 7, "nome": "Align II", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/capacetes/Align-II/60822-100_HLMT_ALIGN-II-HLMT-MIPS-CE-CALWHTSGE-S-M_DETAIL.webp"
-    },
-    {
-        "id": 8, "nome": "Shuffle Child Standard Buckle", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/capacetes/Shuffle-Child-Standard-Buckle/60021-163_HLMT_SHUFFLE-SB-HLMT-CE-BLZ-SMK-FADE-CHLD_FRONT.webp"
-    },
-    {
-        "id": 9, "nome": "Tatic 4", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/capacetes/Tactic-4/60221-135_HLMT_TACTIC-4-HLMT-CE-WHT-M_DETAIL.webp"
-    },
-    {
-        "id": 10, "nome": "Garrafa Big Mouth 710ml", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/garrafas/Garrafa-Big-Mouth-710ml/443-11506_BTL_24-OZ-BM-2ND-GEN_SBC-TRANS.webp"
-    },
-    {
-        "id": 11, "nome": "Garrafa Purist Insulated Fixy 680ml", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/garrafas/Garrafa-Purist-Insulated-Fixy-680ml/44119-234_BTL_PURIST-INSULATED-FIXY-BTL-TRANS-BLU-HEX-23-OZ_HERO.webp"
-    },
-    {
-        "id": 12, "nome": "Garrafa Purist WaterGate 650ml", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/garrafas/Garrafa-Purist-WaterGate-650ml/552-11506_BTL_22-OZ-WG_SBC-TRANS.webp"
-    },
-    {
-        "id": 13, "nome": "Luz Dianteira Stix Elite 2", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/luzes/Luz-Dianteira-Stix-Elite-2/49117-3310_LGHT_STIX-SPORT-COMBO-HEADLIGHT-TAILLIGHT_BLK_DETAIL_WHITE.webp"
-    },
-    {
-        "id": 14, "nome": "Luz Traseira Flashback", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/luzes/Luz-Traseira-Flashback/49120-240_LGHT_FLASHBACK-TAILLIGHT_BACK.webp"
-    },
-    {
-        "id": 15, "nome": "Luz Traseira Flux 250R", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/luzes/Luz-Traseira-Flux-250R/49120-250_LGHT_FLUX-250R-TAILLIGHT_DETAIL-1.webp"
-    },
-    {
-        "id": 16, "nome": "Sapatilha 2FO Roost Canvas", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/sapatilhas/Sapatilha-2FO-Roost-Canvas/61622-504_SHOE_2FO-ROOST-FLAT-CANVAS-MTB-SHOE-SLT-44_HERO.webp"
-    },
-    {
-        "id": 17, "nome": "Sapatilha Torch 1.0 Estrada", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/sapatilhas/Sapatilha-Torch-1.0-Estrada/61020-554_SHOE_TORCH-10-RD-SHOE-WHT-42_HERO.webp"
-    },
-    {
-        "id": 18, "nome": "Sapatilhas MTB Recon 2.0", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/sapatilhas/Sapatilhas-MTB-Recon-2.0/61520-104_SHOE_RECON-20-MTB-SHOE-BLK-42_HERO.webp"
-    },
-    {
-        "id": 19, "nome": "Suporte de Caramanhola Carbon Rib Cage III S-Works", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/suportes-de-garrafas/Suporte-de-Caramanhola-Carbon-Rib-Cage-III-S-Works/43019-013_CAGE_SW-RIB-CAGE-III-CARBON-CARB-GLOSS-BLK_HERO.webp"
-    },
-    {
-        "id": 20, "nome": "Suporte de Caramanhola Rib Cage II", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/suportes-de-garrafas/Suporte-de-Caramanhola-Rib-Cage-II/43015-1000_CAGE_RIB-II-RD-MTN_BLK.webp"
-    },
-    {
-        "id": 21, "nome": "Suporte de Caramanhola Zee Cage II – Esquerdo", "preco": "", "descricao": "", "img": "/images/img-bikeshop/equipamentos/suportes-de-garrafas/Suporte-de-Caramanhola-Zee-Cage-II–Esquerdo/43020-210_CAGE_ZEE-CAGE-II-SIDE-LOADING-LEFT-DT-GLOSS-BLK_DETAIL.webp"
+        "id": 7, "nome": "Shuffle Child Standard Buckle", "preco": 328.00, "descricao": "", "img": "/images/img-bikeshop/equipamentos/capacetes/Shuffle-Child-Standard-Buckle/60021-163_HLMT_SHUFFLE-SB-HLMT-CE-BLZ-SMK-FADE-CHLD_FRONT.webp"
     }
     
 ]
