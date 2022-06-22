@@ -238,8 +238,29 @@ input:not(:placeholder-shown) {
 }
 
 p{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(182, 96, 79);
+    text-align: center;
 }
+
+p:hover {
+    background-color: #000000;    
+}
+
+btn {
+
+        background-color: #BD4714;
+        color:rgb(242, 245, 239);
+        text-align: center;
+        width:90;
+        height:10
+    }
+    
+   btn:hover {
+        background-color: #000000; 
+        
+    }
 
 /* Footer */
 .footer1{

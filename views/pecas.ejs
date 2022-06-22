@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>BIKE SHOP</title>
     <link href="/stylesheets/pecas.css" rel="stylesheet">
     <script src="/javascripts/logicaCarrinho.js" defer></script>
@@ -17,11 +18,12 @@
                 <div>
                     <img src=<%=pecas.img %> width="500px" alt="">
                     <p>
-                        <%= pecas.nome %> R$<%= pecas.preco %>
+                        <%= pecas.nome %> === R$<%= pecas.preco %>
+                        <button id="idButton" class = "btn" onclick="add('<%= JSON.stringify(pecas)%>')">
+                            Comprar
+                          </button>
                     </p>
-                    <button id="idButton" onclick="add('<%= JSON.stringify(pecas)%>')">
-                        Comprar
-                      </button>
+                    
                 </div>
                 <% } %>
         </section>
