@@ -39,8 +39,16 @@ function cancelar() {
 }
 
 function finalizar() {
-  localStorage.clear();
-  document.location.reload(true);
-  window.location = "http://localhost:3000/index";
+  if (localStorage.getItem("produto")){
+    localStorage.clear();
+    document.location.reload(true);
+    window.location = "http://localhost:3000/index";
+    alert('Compra finalizada com sucesso!')
+  } else {
+    localStorage.clear();
+    document.location.reload(true);
+    window.location = "http://localhost:3000/index";
+    alert('O carrinho esta vazio!')
+  }
   return;
 }
