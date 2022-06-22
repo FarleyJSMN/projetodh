@@ -80,9 +80,9 @@ button:hover{
     border: 0px;
     padding: 10px;
     outline: 0;
-    background-color: #0c0c0c;
+    background-color: rgb(228, 214, 214);
     border-radius: 3px;
-    color: white;
+    color: black;
     font-weight: bold;
     transition: all ease 0.5s;
 }
