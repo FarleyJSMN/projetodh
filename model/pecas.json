@@ -16,5 +16,8 @@
     },
     {
         "id": 7, "nome": "Guidão Cockpit Alpinist SL", "preco": 1599.00, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/guidoes/Cockpit-Alpinist-SL/21021-032_CMPNT_ROVAL-ALPINIST-RD-COCKPIT-CARB-BLK-318X400-80MM_HERO-1.webp"
+    },
+    {
+        "id": 8, "nome": "Guidão Hover Expert Alumínio", "preco": 3590.00, "descricao": "12x sem juros", "img": "/images/img-bikeshop/componentes/guidoes/Guidão-Hover-Expert-Alumínio-Altura-15mm/21017-20_CMPNT_HOVER-EXPERT-ALLOY-15-RD-BAR_SAND-BLAST-ANO-BLK.webp"
     }
 ]
