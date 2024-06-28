@@ -21,7 +21,7 @@
     "morgan": "~1.9.1",
     "mysql2": "^3.9.8",
     "requirejs": "^2.3.6",
-    "sequelize": "^6.19.0"
+    "sequelize": "^6.29.0"
   },
   "main": "app.js",
   "repository": {
